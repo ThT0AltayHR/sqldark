@@ -53,6 +53,10 @@ class Engine:
         base_url, base_data = first.build("")
         baseline = self.http.send(base_url, method=first.method, data=base_data)
         self._baseline = baseline
+        if baseline.status < 0:
+            self.log.error("could not reach the target (no baseline response); "
+                           "check the URL, network, or proxy")
+            return []
         self.log.info(f"baseline: HTTP {baseline.status}, "
                       f"{baseline.length} bytes, {baseline.elapsed:.2f}s")
         base_db = match_dbms(baseline.text)

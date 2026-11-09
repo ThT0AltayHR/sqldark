@@ -22,9 +22,15 @@ class BooleanBlind(Technique):
     letter = "B"
 
     def test(self, point, baseline):
-        for prefix, suffix in VECTORS:
-            true_p = f"{prefix} {TRUE_COND.format(a=71)} {suffix}"
-            false_p = f"{prefix} {FALSE_COND.format(a=71, b=72)} {suffix}"
+        # risk 1: AND-based only. risk >=2: also try OR-based conditions,
+        # which surface injection in contexts where AND is swallowed.
+        conds = [("AND", TRUE_COND, FALSE_COND)]
+        if self.risk >= 2:
+            conds.append(("OR", "OR {a}={a}", "OR {a}={b}"))
+        for prefix, suffix in self.library_boundaries(VECTORS):
+          for _kind, tcond, fcond in conds:
+            true_p = f"{prefix} {tcond.format(a=71, b=72)} {suffix}"
+            false_p = f"{prefix} {fcond.format(a=71, b=72)} {suffix}"
 
             rt = self._send(point, true_p)
             rf = self._send(point, false_p)

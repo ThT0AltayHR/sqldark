@@ -34,8 +34,11 @@ class SessionStore:
         path = self._path(name)
         if not os.path.exists(path):
             return None
-        with open(path, encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(path, encoding="utf-8") as f:
+                return json.load(f)
+        except (ValueError, OSError):
+            return None  # corrupt or unreadable session -> treat as absent
 
     def list(self):
         out = []

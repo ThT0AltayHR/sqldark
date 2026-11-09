@@ -16,8 +16,8 @@ class UnionBased(Technique):
     letter = "U"
 
     def test(self, point, baseline):
-        # 1) Determine column count with ORDER BY
-        for prefix, suffix in WRAPS:
+        # 1) Determine column count with ORDER BY. --level widens the boundary set.
+        for prefix, suffix in self.library_boundaries(WRAPS):
             cols = self._order_by_count(point, prefix, suffix, baseline)
             if cols:
                 visible = self._find_visible(point, prefix, suffix, cols)

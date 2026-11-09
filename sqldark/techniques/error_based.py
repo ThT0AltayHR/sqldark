@@ -9,10 +9,23 @@ class ErrorBased(Technique):
     name = "error-based"
     letter = "E"
 
+    def _boundaries(self):
+        """Proven error boundaries first, then library prefixes at higher --level."""
+        out = list(BOUNDARIES)
+        if self.level > 1:
+            try:
+                from sqldark.core.payloads import boundary_set
+                for pre, _suf in boundary_set(self.level):
+                    if pre and pre not in out:
+                        out.append(pre)
+            except Exception:
+                pass
+        return out
+
     def test(self, point, baseline):
         # Baseline must not already contain a DB error.
         base_db = match_dbms(baseline.text)
-        for b in BOUNDARIES:
+        for b in self._boundaries():
             resp = self._send(point, b)
             db = match_dbms(resp.text)
             if db and (not base_db):

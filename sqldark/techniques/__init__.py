@@ -55,14 +55,21 @@ class Technique:
         self.risk = 1
 
     def library_boundaries(self, fallback):
-        """Boundaries from the on-disk payload library, scaled by --level.
-        Falls back to the technique's own list if the library is unavailable."""
+        """Proven boundaries first, then extra ones from the on-disk payload
+        library scaled by --level (deduped). The technique's own list always
+        runs, so --level only widens coverage and never drops a working case."""
+        out, seen = [], set()
+        for b in fallback:
+            if b not in seen:
+                seen.add(b); out.append(b)
         try:
             from sqldark.core.payloads import boundary_set
-            b = boundary_set(self.level)
-            return b or fallback
+            for b in boundary_set(self.level):
+                if b not in seen:
+                    seen.add(b); out.append(b)
         except Exception:
-            return fallback
+            pass
+        return out
 
     def _send(self, point, payload):
         # Apply the tamper chain to the injected payload, then build the request.

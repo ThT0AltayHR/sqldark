@@ -45,7 +45,8 @@ def build_parser():
     det.add_argument("--level", type=int, default=1, choices=range(1,6),
                      help="1-5: how many payload-library boundaries to try (wider=deeper)")
     det.add_argument("--risk", type=int, default=1, choices=range(1,4),
-                     help="1-3: how aggressive the payloads may be")
+                     help="1-3: payload families to try (1 AND-based; 2 adds "
+                          "OR-based; 3 adds heavier time vectors) - labs only")
 
     ev = p.add_argument_group("evasion")
     ev.add_argument("--tamper", help="comma-separated tamper scripts")
