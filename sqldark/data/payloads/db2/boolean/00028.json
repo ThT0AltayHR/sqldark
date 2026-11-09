@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "boolean", "boundary": {"prefix": "", "suffix": "", "type": "numeric"}, "vector": "{B} OR {T}", "comment": "db2 boolean: numeric"}

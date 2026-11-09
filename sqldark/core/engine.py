@@ -24,12 +24,14 @@ DEFAULT_ORDER = "EBUT"
 
 class Engine:
     def __init__(self, http, log, techniques=DEFAULT_ORDER, skip_waf=False,
-                 auto_tamper=False):
+                 auto_tamper=False, level=1, risk=1):
         self.http = http
         self.log = log
         self.order = [c for c in techniques.upper() if c in TECHNIQUE_MAP]
         self.skip_waf = skip_waf
         self.auto_tamper = auto_tamper
+        self.level = level
+        self.risk = risk
 
     def scan(self, url, method="GET", data=None, enum_opts=None):
         target = Target(url, method=method, data=data)
@@ -78,6 +80,8 @@ class Engine:
             self.log.info(f"testing parameter '{point.name}' ({point.place})")
             for letter in self.order:
                 tech = TECHNIQUE_MAP[letter](self.http, self.log)
+                tech.level = self.level
+                tech.risk = self.risk
                 res = tech.test(point, baseline)
                 if res.vulnerable:
                     findings.append(res)

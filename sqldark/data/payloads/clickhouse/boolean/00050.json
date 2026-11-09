@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "boolean", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} OR {T}", "comment": "clickhouse boolean: terminator"}

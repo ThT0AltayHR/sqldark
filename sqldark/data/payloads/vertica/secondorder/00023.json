@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "secondorder", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}/*stored:{Q}*/", "comment": "vertica secondorder: url-enc single"}

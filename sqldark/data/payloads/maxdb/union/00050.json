@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "union", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} UNION ALL SELECT NULL,NULL", "comment": "maxdb union: terminator"}

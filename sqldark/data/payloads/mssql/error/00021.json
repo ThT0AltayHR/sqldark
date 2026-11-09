@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "error", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B} AND 1=convert(int,({Q}))", "comment": "mssql error: single+concat"}

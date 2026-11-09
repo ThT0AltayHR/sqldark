@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "stacked", "boundary": {"prefix": "", "suffix": "", "type": "numeric"}, "vector": "{B}; SELECT (SELECT COUNT(*) FROM tables)", "comment": "vertica stacked: numeric"}

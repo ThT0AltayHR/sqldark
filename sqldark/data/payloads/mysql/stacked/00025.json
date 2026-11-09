@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "stacked", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B}; SELECT SLEEP(5)", "comment": "mysql stacked: terminator"}

@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "secondorder", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}/*stored:{Q}*/", "comment": "cockroachdb secondorder: url-enc single"}

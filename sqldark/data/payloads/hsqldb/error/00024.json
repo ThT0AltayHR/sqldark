@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "error", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=CAST(({Q}) AS INT)", "comment": "hsqldb error: single+enc hash"}

@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "union", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B} UNION ALL SELECT NULL FROM dual", "comment": "oracle union: single, hash"}

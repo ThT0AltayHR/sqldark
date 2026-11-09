@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "boolean", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} OR {T}", "comment": "mssql boolean: num in paren bare"}

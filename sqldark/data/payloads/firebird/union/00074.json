@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "union", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL", "comment": "firebird union: single+enc hash"}

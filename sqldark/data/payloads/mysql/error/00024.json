@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "error", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND extractvalue(1,concat(0x7e,({Q})))", "comment": "mysql error: single+enc hash"}

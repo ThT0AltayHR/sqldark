@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "boolean", "boundary": {"prefix": "", "suffix": "#", "type": "numeric"}, "vector": "{B} OR {T}", "comment": "access boolean: numeric, hash"}

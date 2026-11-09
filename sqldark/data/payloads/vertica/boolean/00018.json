@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "boolean", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} AND {T}", "comment": "vertica boolean: double in paren"}

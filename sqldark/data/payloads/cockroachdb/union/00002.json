@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "union", "boundary": {"prefix": "", "suffix": "#", "type": "numeric"}, "vector": "{B} UNION ALL SELECT NULL", "comment": "cockroachdb union: numeric, hash"}

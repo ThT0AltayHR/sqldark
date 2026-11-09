@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "boolean", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B} AND 7*7=49", "comment": "oracle boolean: num in paren"}

@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "secondorder", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B}/*stored:{Q}*/", "comment": "access secondorder: single+enc hash"}

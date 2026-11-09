@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "inline", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "vertica inline: single+enc hash"}

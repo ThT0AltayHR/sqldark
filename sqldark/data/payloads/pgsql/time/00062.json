@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "time", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B} AND CASE WHEN ({T}) THEN pg_sleep(5) ELSE pg_sleep(0) END", "comment": "pgsql time: num in paren"}

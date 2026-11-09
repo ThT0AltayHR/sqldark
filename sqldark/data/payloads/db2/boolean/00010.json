@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "boolean", "boundary": {"prefix": "\"", "suffix": "#", "type": "double"}, "vector": "{B} AND {T}", "comment": "db2 boolean: double, hash"}

@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "secondorder", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B}/*stored:{Q}*/", "comment": "maxdb secondorder: single+enc hash"}

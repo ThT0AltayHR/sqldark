@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "boolean", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} AND {T}", "comment": "vertica boolean: single trailing ws"}

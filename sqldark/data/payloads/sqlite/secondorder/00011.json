@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "secondorder", "boundary": {"prefix": "\"", "suffix": "", "type": "double"}, "vector": "{B}/*stored:{Q}*/", "comment": "sqlite secondorder: double"}

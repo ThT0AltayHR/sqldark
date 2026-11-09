@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "inline", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}=(SELECT ({Q}))", "comment": "sqlite inline: url-enc single"}

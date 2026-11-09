@@ -1,0 +1,5 @@
+{
+ "dbms": "pgsql",
+ "probe": "unique",
+ "expression": "pg_backend_pid()"
+}

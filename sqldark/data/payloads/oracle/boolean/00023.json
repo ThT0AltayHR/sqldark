@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "boolean", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND {T}", "comment": "oracle boolean: url-enc single"}

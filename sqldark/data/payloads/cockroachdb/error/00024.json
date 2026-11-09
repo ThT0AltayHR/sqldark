@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "error", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND cast(({Q}) as numeric)", "comment": "cockroachdb error: single+enc hash"}

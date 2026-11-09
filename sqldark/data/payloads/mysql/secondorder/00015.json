@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "secondorder", "boundary": {"prefix": "')", "suffix": "", "type": "paren-single"}, "vector": "{B}/*stored:{Q}*/", "comment": "mysql secondorder: single in paren bare"}

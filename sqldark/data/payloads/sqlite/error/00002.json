@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "error", "boundary": {"prefix": "", "suffix": "#", "type": "numeric"}, "vector": "{B} AND 1=load_extension(({Q}))", "comment": "sqlite error: numeric, hash"}

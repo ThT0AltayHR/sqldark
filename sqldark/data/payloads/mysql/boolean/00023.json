@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "boolean", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND {T}", "comment": "mysql boolean: url-enc single"}

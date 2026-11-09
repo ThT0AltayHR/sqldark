@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "union", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} UNION ALL SELECT NULL FROM SYSIBM.SYSDUMMY1", "comment": "db2 union: single in 2 parens"}

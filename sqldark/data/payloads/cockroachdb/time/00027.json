@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "time", "boundary": {"prefix": "", "suffix": "#", "type": "numeric"}, "vector": "{B} AND (SELECT pg_sleep(5))", "comment": "cockroachdb time: numeric, hash"}

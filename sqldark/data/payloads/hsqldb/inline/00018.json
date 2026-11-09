@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "inline", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B}=(SELECT ({Q}))", "comment": "hsqldb inline: double in paren"}

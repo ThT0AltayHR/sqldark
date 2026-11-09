@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "stacked", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B}; SELECT (SELECT COUNT(*) FROM SYSIBM.SYSTABLES)", "comment": "db2 stacked: single+enc hash"}

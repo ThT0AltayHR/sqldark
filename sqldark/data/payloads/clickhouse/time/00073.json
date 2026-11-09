@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "time", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND CASE WHEN ({T}) THEN sleep(5) ELSE sleep(0) END", "comment": "clickhouse time: url-enc single"}

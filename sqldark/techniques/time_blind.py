@@ -26,7 +26,7 @@ class TimeBlind(Technique):
         threshold = max(base_time + DELAY - 1.5, DELAY - 1.0)
 
         for dbms, tmpl in VECTORS:
-            for prefix, suffix in WRAPS:
+            for prefix, suffix in self.library_boundaries(WRAPS):
                 payload = tmpl.format(p=prefix, s=suffix, d=DELAY, big=300000000)
                 resp = self._send(point, payload)
                 if resp.elapsed >= threshold:

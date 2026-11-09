@@ -1,0 +1,5 @@
+{
+ "dbms": "cockroachdb",
+ "probe": "unique",
+ "expression": "crdb_internal.cluster_id()"
+}

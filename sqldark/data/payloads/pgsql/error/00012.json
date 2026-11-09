@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "error", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B} AND cast(({Q}) as numeric)", "comment": "pgsql error: num in paren"}

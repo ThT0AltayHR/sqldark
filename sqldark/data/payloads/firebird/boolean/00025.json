@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "boolean", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} AND {T}", "comment": "firebird boolean: terminator"}

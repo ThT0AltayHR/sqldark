@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "time", "boundary": {"prefix": "\"", "suffix": "#", "type": "double"}, "vector": "{B} AND (SELECT (SELECT COUNT(*) FROM RDB$DATABASE))", "comment": "firebird time: double, hash"}

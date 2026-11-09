@@ -1,0 +1,5 @@
+{
+ "dbms": "pgsql",
+ "probe": "version",
+ "expression": "version()"
+}

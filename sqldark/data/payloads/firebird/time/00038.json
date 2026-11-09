@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "time", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} AND (SELECT (SELECT COUNT(*) FROM RDB$DATABASE))", "comment": "firebird time: num in paren bare"}

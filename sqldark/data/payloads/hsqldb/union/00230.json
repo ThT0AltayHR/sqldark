@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "union", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL", "comment": "hsqldb union: single, hash"}

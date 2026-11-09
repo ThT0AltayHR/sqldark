@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "inline", "boundary": {"prefix": "", "suffix": "", "type": "numeric"}, "vector": "{B}=(SELECT ({Q}) FROM SYSIBM.SYSDUMMY1)", "comment": "db2 inline: numeric"}

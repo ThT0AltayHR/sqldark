@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "error", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND 1=cast(({Q}) as int)", "comment": "pgsql error: single in 2 parens ws"}

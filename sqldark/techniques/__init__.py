@@ -51,6 +51,18 @@ class Technique:
     def __init__(self, http, log):
         self.http = http
         self.log = log
+        self.level = 1
+        self.risk = 1
+
+    def library_boundaries(self, fallback):
+        """Boundaries from the on-disk payload library, scaled by --level.
+        Falls back to the technique's own list if the library is unavailable."""
+        try:
+            from sqldark.core.payloads import boundary_set
+            b = boundary_set(self.level)
+            return b or fallback
+        except Exception:
+            return fallback
 
     def _send(self, point, payload):
         # Apply the tamper chain to the injected payload, then build the request.

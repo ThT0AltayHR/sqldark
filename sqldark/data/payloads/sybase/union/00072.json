@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "union", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL", "comment": "sybase union: single trailing ws"}

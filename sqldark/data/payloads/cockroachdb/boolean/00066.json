@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "boolean", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} AND 7*7=49", "comment": "cockroachdb boolean: single in 2 parens"}

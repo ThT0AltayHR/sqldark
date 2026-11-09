@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "time", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND CASE WHEN ({T}) THEN (SELECT COUNT(*) FROM tables) ELSE (SELECT COUNT(*) FROM tables) END", "comment": "vertica time: single in 2 parens ws"}

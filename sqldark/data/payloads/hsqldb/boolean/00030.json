@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "boolean", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B} OR {T}", "comment": "hsqldb boolean: single, hash"}

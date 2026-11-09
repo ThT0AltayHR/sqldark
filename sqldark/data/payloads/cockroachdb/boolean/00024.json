@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "boolean", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND {T}", "comment": "cockroachdb boolean: single+enc hash"}

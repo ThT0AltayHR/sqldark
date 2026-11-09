@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "error", "boundary": {"prefix": "'", "suffix": "-- -", "type": "single"}, "vector": "{B} AND 1=convert(int,({Q}))", "comment": "sybase error: single, inline comment"}

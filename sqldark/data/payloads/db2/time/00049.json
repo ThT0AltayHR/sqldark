@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT (SELECT COUNT(*) FROM SYSIBM.SYSTABLES))", "comment": "db2 time: single+enc hash"}

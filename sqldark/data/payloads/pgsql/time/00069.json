@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "time", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B} AND CASE WHEN ({T}) THEN pg_sleep(5) ELSE pg_sleep(0) END", "comment": "pgsql time: backtick"}

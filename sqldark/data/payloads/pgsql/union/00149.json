@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "union", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL", "comment": "pgsql union: single+enc hash"}

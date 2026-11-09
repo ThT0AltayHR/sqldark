@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "time", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} AND (SELECT COUNT(*) FROM systables)", "comment": "informix time: terminator"}

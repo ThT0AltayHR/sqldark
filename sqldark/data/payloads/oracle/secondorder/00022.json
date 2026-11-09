@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "secondorder", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B}/*stored:{Q}*/", "comment": "oracle secondorder: single trailing ws"}

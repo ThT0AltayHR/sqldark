@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND CASE WHEN ({T}) THEN (SELECT COUNT(*) FROM tables) ELSE (SELECT COUNT(*) FROM tables) END", "comment": "vertica time: single+enc hash"}

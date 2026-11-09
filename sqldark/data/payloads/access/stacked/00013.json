@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "stacked", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B}; SELECT 1", "comment": "access stacked: num in paren bare"}

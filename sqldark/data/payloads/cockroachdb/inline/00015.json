@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "inline", "boundary": {"prefix": "')", "suffix": "", "type": "paren-single"}, "vector": "{B}=(SELECT ({Q}))", "comment": "cockroachdb inline: single in paren bare"}

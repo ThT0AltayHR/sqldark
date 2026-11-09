@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "time", "boundary": {"prefix": "'", "suffix": "-- ", "type": "single"}, "vector": "{B} AND (SELECT COUNT(*) FROM RDB$DATABASE)", "comment": "firebird time: single, dashdash-space"}

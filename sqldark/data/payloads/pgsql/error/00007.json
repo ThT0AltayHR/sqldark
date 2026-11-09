@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "error", "boundary": {"prefix": "'", "suffix": "-- ", "type": "single"}, "vector": "{B} AND cast(({Q}) as numeric)", "comment": "pgsql error: single, dashdash-space"}

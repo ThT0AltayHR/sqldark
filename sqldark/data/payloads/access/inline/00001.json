@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "inline", "boundary": {"prefix": "", "suffix": "-- -", "type": "numeric"}, "vector": "{B}=(SELECT ({Q}))", "comment": "access inline: numeric, inline comment"}

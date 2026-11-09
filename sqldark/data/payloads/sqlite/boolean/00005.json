@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "boolean", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B} AND {T}", "comment": "sqlite boolean: single, hash"}

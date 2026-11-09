@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "error", "boundary": {"prefix": "", "suffix": "#", "type": "numeric"}, "vector": "{B} AND extractvalue(1,concat(0x7e,({Q})))", "comment": "mariadb error: numeric, hash"}

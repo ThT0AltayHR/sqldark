@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "inline", "boundary": {"prefix": "\"", "suffix": "", "type": "double"}, "vector": "{B}=(SELECT ({Q}))", "comment": "clickhouse inline: double"}

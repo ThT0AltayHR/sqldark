@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "union", "boundary": {"prefix": "", "suffix": "#", "type": "numeric"}, "vector": "{B} UNION ALL SELECT NULL", "comment": "mssql union: numeric, hash"}

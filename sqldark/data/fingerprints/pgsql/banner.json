@@ -1,0 +1,5 @@
+{
+ "dbms": "pgsql",
+ "probe": "banner",
+ "expression": "current_setting('server_version')"
+}

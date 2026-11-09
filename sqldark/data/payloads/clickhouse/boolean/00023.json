@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "boolean", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND {T}", "comment": "clickhouse boolean: url-enc single"}

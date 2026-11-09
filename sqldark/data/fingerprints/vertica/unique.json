@@ -1,0 +1,5 @@
+{
+ "dbms": "vertica",
+ "probe": "unique",
+ "expression": "current_database()"
+}

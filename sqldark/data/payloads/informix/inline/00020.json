@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "inline", "boundary": {"prefix": "`", "suffix": "", "type": "backtick"}, "vector": "{B}=(SELECT ({Q}) FROM systables WHERE 1=1)", "comment": "informix inline: backtick bare"}

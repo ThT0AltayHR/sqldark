@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "error", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=load_extension(({Q}))", "comment": "sqlite error: single+enc hash"}

@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "boolean", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} OR {T}", "comment": "informix boolean: single in 2 parens"}

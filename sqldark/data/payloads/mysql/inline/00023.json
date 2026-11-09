@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "inline", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}=(SELECT ({Q}))", "comment": "mysql inline: url-enc single"}

@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "time", "boundary": {"prefix": "", "suffix": "-- -", "type": "numeric"}, "vector": "{B} AND CASE WHEN ({T}) THEN (SELECT COUNT(*) FROM SYSIBM.SYSTABLES) ELSE (SELECT COUNT(*) FROM SYSIBM.SYSTABLES) END", "comment": "db2 time: numeric, inline comment"}

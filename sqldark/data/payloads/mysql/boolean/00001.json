@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "boolean", "boundary": {"prefix": "", "suffix": "-- -", "type": "numeric"}, "vector": "{B} AND {T}", "comment": "mysql boolean: numeric, inline comment"}

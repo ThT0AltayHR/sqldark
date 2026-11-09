@@ -1,0 +1,5 @@
+{
+ "dbms": "maxdb",
+ "probe": "version",
+ "expression": "(SELECT KERNEL FROM VERSIONS)"
+}

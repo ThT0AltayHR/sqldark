@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "error", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=toInt32(({Q}))", "comment": "clickhouse error: single+enc hash"}

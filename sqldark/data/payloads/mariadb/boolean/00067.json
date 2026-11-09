@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "boolean", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND 7*7=49", "comment": "mariadb boolean: single in 2 parens ws"}

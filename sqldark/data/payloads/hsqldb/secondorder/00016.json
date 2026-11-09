@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "secondorder", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B}/*stored:{Q}*/", "comment": "hsqldb secondorder: single in 2 parens"}

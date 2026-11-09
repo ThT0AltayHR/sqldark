@@ -1,0 +1,5 @@
+{
+ "dbms": "mysql",
+ "probe": "comment_inj",
+ "expression": "/*!30000 */"
+}

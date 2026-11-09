@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "error", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} AND 1=(({Q})::int)", "comment": "vertica error: single in 2 parens"}

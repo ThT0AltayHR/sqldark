@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "error", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} AND 1=(({Q})::int)", "comment": "vertica error: num in paren bare"}

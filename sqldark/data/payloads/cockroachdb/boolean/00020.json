@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "boolean", "boundary": {"prefix": "`", "suffix": "", "type": "backtick"}, "vector": "{B} AND {T}", "comment": "cockroachdb boolean: backtick bare"}

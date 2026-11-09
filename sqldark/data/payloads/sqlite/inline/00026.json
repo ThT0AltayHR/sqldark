@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "inline", "boundary": {"prefix": "", "suffix": "-- -", "type": "numeric"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "sqlite inline: numeric, inline comment"}

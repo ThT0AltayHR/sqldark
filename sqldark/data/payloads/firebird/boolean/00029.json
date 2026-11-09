@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "boolean", "boundary": {"prefix": "'", "suffix": "-- -", "type": "single"}, "vector": "{B} OR {T}", "comment": "firebird boolean: single, inline comment"}

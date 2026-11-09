@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "error", "boundary": {"prefix": "", "suffix": "#", "type": "numeric"}, "vector": "{B} AND 1=CAST(({Q}) AS INT)", "comment": "hsqldb error: numeric, hash"}

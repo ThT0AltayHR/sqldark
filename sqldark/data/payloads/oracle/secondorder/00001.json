@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "secondorder", "boundary": {"prefix": "", "suffix": "-- -", "type": "numeric"}, "vector": "{B}/*stored:{Q}*/", "comment": "oracle secondorder: numeric, inline comment"}

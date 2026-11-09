@@ -1,0 +1,5 @@
+{
+ "dbms": "informix",
+ "probe": "version",
+ "expression": "DBINFO('version','full')"
+}

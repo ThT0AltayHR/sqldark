@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "secondorder", "boundary": {"prefix": "\"", "suffix": "#", "type": "double"}, "vector": "{B}/*stored:{Q}*/", "comment": "access secondorder: double, hash"}

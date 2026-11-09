@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "stacked", "boundary": {"prefix": "\"", "suffix": "", "type": "double"}, "vector": "{B}; SELECT pg_sleep(5)", "comment": "cockroachdb stacked: double"}

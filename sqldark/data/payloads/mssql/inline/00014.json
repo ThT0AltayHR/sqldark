@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "inline", "boundary": {"prefix": "')", "suffix": "-- -", "type": "paren-single"}, "vector": "{B}=(SELECT ({Q}))", "comment": "mssql inline: single in paren"}

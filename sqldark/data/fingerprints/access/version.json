@@ -1,0 +1,5 @@
+{
+ "dbms": "access",
+ "probe": "version",
+ "expression": "(SELECT 1)"
+}

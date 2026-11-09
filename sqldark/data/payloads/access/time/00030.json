@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "time", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B} AND (SELECT (SELECT COUNT(*) FROM MSysObjects))", "comment": "access time: single, hash"}

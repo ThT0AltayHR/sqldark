@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "inline", "boundary": {"prefix": "'", "suffix": "", "type": "single"}, "vector": "{B}=(SELECT ({Q}))", "comment": "vertica inline: single"}

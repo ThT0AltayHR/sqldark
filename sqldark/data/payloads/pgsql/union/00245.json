@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "union", "boundary": {"prefix": "`", "suffix": "", "type": "backtick"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL", "comment": "pgsql union: backtick bare"}

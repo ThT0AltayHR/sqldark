@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "error", "boundary": {"prefix": "'", "suffix": "-- ", "type": "single"}, "vector": "{B} AND 1=ctxsys.drithsx.sn(1,({Q}))", "comment": "oracle error: single, dashdash-space"}

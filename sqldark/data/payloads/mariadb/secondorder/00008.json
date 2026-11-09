@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "secondorder", "boundary": {"prefix": "'", "suffix": "/*", "type": "single"}, "vector": "{B}/*stored:{Q}*/", "comment": "mariadb secondorder: single, block"}

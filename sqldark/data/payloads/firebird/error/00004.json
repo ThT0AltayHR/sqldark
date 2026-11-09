@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "error", "boundary": {"prefix": "'", "suffix": "-- -", "type": "single"}, "vector": "{B} AND 1=CAST(({Q}) AS INTEGER)", "comment": "firebird error: single, inline comment"}

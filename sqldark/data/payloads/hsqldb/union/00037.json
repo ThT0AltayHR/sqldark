@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "union", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B} UNION ALL SELECT NULL,NULL", "comment": "hsqldb union: num in paren"}

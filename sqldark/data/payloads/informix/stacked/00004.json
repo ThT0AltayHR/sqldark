@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "stacked", "boundary": {"prefix": "'", "suffix": "-- -", "type": "single"}, "vector": "{B}; SELECT (SELECT COUNT(*) FROM systables)", "comment": "informix stacked: single, inline comment"}

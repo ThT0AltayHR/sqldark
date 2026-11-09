@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "time", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND DBMS_PIPE.RECEIVE_MESSAGE('a',5)", "comment": "oracle time: single in 2 parens ws"}

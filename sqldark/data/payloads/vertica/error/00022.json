@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "error", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} AND 1=(({Q})::int)", "comment": "vertica error: single trailing ws"}

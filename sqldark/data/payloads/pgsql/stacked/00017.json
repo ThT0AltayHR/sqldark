@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "stacked", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B}; SELECT pg_sleep(5)", "comment": "pgsql stacked: single in 2 parens ws"}

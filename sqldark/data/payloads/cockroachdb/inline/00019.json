@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "inline", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B}=(SELECT ({Q}))", "comment": "cockroachdb inline: backtick"}

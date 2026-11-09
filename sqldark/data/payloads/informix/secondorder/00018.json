@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "secondorder", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B}/*stored:{Q}*/", "comment": "informix secondorder: double in paren"}

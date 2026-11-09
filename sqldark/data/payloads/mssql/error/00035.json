@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "error", "boundary": {"prefix": "\"", "suffix": "#", "type": "double"}, "vector": "{B} AND ({Q})>0", "comment": "mssql error: double, hash"}

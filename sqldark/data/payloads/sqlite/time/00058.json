@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "time", "boundary": {"prefix": "'", "suffix": "/*", "type": "single"}, "vector": "{B} AND CASE WHEN ({T}) THEN RANDOMBLOB(1000000000) ELSE RANDOMBLOB(1000000000) END", "comment": "sqlite time: single, block"}

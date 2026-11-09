@@ -1,0 +1,5 @@
+{
+ "dbms": "mariadb",
+ "probe": "version",
+ "expression": "@@version"
+}

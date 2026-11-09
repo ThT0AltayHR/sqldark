@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "secondorder", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}/*stored:{Q}*/", "comment": "clickhouse secondorder: url-enc single"}

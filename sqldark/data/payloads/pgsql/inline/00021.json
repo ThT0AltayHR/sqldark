@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "inline", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B}=(SELECT ({Q}))", "comment": "pgsql inline: single+concat"}

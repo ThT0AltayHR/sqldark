@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "secondorder", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B}/*stored:{Q}*/", "comment": "mariadb secondorder: terminator"}

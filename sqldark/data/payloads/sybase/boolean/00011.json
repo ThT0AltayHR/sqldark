@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "boolean", "boundary": {"prefix": "\"", "suffix": "", "type": "double"}, "vector": "{B} AND {T}", "comment": "sybase boolean: double"}

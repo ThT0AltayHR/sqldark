@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "boolean", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} OR {T}", "comment": "oracle boolean: single trailing ws"}

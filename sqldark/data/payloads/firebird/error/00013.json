@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "error", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} AND 1=CAST(({Q}) AS INTEGER)", "comment": "firebird error: num in paren bare"}

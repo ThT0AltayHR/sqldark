@@ -1,0 +1,5 @@
+{
+ "dbms": "clickhouse",
+ "probe": "unique",
+ "expression": "currentDatabase()"
+}

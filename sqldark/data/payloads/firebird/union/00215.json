@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "union", "boundary": {"prefix": "')", "suffix": "", "type": "paren-single"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL", "comment": "firebird union: single in paren bare"}

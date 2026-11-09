@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "inline", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B}=(SELECT ({Q}))", "comment": "sybase inline: num in paren"}

@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "boolean", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 7*7=49", "comment": "mysql boolean: single+enc hash"}

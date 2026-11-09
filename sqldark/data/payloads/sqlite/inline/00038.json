@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "inline", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "sqlite inline: num in paren bare"}

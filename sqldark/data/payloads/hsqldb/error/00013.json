@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "error", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} AND 1=CAST(({Q}) AS INT)", "comment": "hsqldb error: num in paren bare"}

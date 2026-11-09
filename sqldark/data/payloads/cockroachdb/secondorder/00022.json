@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "secondorder", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B}/*stored:{Q}*/", "comment": "cockroachdb secondorder: single trailing ws"}

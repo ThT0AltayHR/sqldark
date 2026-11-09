@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "stacked", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B}; SELECT (SELECT COUNT(*) FROM RDB$DATABASE)", "comment": "firebird stacked: single in 2 parens ws"}

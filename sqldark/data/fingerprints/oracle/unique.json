@@ -1,0 +1,5 @@
+{
+ "dbms": "oracle",
+ "probe": "unique",
+ "expression": "(SELECT instance_name FROM v$instance)"
+}

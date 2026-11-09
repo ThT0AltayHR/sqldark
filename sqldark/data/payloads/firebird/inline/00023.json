@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "inline", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}=(SELECT ({Q}))", "comment": "firebird inline: url-enc single"}

@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "stacked", "boundary": {"prefix": "", "suffix": "", "type": "numeric"}, "vector": "{B}; SELECT sleep(5)", "comment": "clickhouse stacked: numeric"}

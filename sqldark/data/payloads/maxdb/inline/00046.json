@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "inline", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "maxdb inline: single+concat"}

@@ -1,0 +1,5 @@
+{
+ "dbms": "maxdb",
+ "probe": "unique",
+ "expression": "DATABASE"
+}

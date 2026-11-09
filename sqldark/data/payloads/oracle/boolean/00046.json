@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "boolean", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B} OR {T}", "comment": "oracle boolean: single+concat"}

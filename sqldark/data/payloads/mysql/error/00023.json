@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "error", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND extractvalue(1,concat(0x7e,({Q})))", "comment": "mysql error: url-enc single"}

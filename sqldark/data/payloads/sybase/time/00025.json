@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "time", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} AND WAITFOR DELAY '0:0:5'", "comment": "sybase time: terminator"}

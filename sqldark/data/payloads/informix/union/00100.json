@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "union", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL,NULL FROM systables WHERE 1=1", "comment": "informix union: terminator"}

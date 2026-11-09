@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "stacked", "boundary": {"prefix": "'", "suffix": "", "type": "single"}, "vector": "{B}; SELECT (SELECT COUNT(*) FROM SYSIBM.SYSTABLES)", "comment": "db2 stacked: single"}

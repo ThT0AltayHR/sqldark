@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "inline", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B}=(SELECT ({Q}))", "comment": "vertica inline: backtick"}

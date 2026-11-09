@@ -1,0 +1,5 @@
+{
+ "dbms": "firebird",
+ "probe": "unique",
+ "expression": "CURRENT_CONNECTION"
+}

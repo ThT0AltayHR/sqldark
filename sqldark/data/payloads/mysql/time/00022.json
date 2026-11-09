@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "time", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} AND SLEEP(5)", "comment": "mysql time: single trailing ws"}

@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "boolean", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B} OR {T}", "comment": "sybase boolean: num in paren"}

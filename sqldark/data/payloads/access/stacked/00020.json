@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "stacked", "boundary": {"prefix": "`", "suffix": "", "type": "backtick"}, "vector": "{B}; SELECT 1", "comment": "access stacked: backtick bare"}

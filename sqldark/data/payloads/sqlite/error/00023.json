@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "error", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=load_extension(({Q}))", "comment": "sqlite error: url-enc single"}

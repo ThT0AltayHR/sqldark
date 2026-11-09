@@ -1,5 +1,6 @@
 """HTTP engine: sends requests, applies tamper chain, times responses."""
 import random
+import re
 import time
 import requests
 
@@ -29,7 +30,8 @@ class Response:
 class HttpClient:
     def __init__(self, logger, timeout=15, delay=0.0, retries=2,
                  proxy=None, headers=None, cookies=None, tampers=None,
-                 random_agent=False, verify=False):
+                 random_agent=False, verify=False, random_delay=0.0,
+                 csrf_url=None, csrf_field=None):
         self.log = logger
         self.timeout = timeout
         self.delay = delay
@@ -37,6 +39,9 @@ class HttpClient:
         self.tampers = tampers or []
         self.random_agent = random_agent
         self.verify = verify
+        self.random_delay = random_delay
+        self.csrf_url = csrf_url
+        self.csrf_field = csrf_field
         self.session = requests.Session()
         self.session.verify = verify
         if proxy:
@@ -65,6 +70,9 @@ class HttpClient:
             try:
                 if self.delay:
                     time.sleep(self.delay)
+                if self.random_delay:
+                    time.sleep(random.uniform(0, self.random_delay))
+                data = self._inject_csrf(data)
                 start = time.time()
                 r = self.session.request(
                     method, url, data=data, timeout=self.timeout,
@@ -83,3 +91,27 @@ class HttpClient:
                 time.sleep(0.5)
         self.log.error(f"request failed: {last_exc}")
         return Response(-1, "", {}, 0.0, url)
+
+    def _inject_csrf(self, data):
+        """If a CSRF endpoint is configured, fetch a fresh token and fold it
+        into the POST body under the configured field name (anti-CSRF bypass
+        for authorized testing of token-protected forms)."""
+        if not self.csrf_url or not self.csrf_field or data is None:
+            return data
+        try:
+            r = self.session.get(self.csrf_url, timeout=self.timeout, verify=self.verify)
+            m = re.search(
+                self.csrf_field + r"[\"\']?\s*(?:value|content)=[\"\']([^\"\']+)",
+                r.text, re.I)
+            if not m:
+                m = re.search(r"name=[\"\']" + self.csrf_field +
+                              r"[\"\'][^>]*value=[\"\']([^\"\']+)", r.text, re.I)
+            if m:
+                token = m.group(1)
+                if isinstance(data, str):
+                    data = data + f"&{self.csrf_field}={token}"
+                elif isinstance(data, dict):
+                    data[self.csrf_field] = token
+        except Exception:
+            pass
+        return data

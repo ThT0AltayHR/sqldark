@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "inline", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "firebird inline: single, hash"}

@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "error", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} AND 1=CAST(({Q}) AS INT)", "comment": "maxdb error: single in 2 parens"}

@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "boolean", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} AND {T}", "comment": "cockroachdb boolean: double in paren"}

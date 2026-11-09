@@ -1,0 +1,5 @@
+{
+ "dbms": "oracle",
+ "probe": "version",
+ "expression": "(SELECT banner FROM v$version WHERE rownum=1)"
+}

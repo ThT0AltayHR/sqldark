@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "inline", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B}=(SELECT ({Q}))", "comment": "sybase inline: single trailing ws"}

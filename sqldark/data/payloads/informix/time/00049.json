@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT (SELECT COUNT(*) FROM systables))", "comment": "informix time: single+enc hash"}

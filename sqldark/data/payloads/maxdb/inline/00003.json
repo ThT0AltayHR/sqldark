@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "inline", "boundary": {"prefix": "", "suffix": "", "type": "numeric"}, "vector": "{B}=(SELECT ({Q}))", "comment": "maxdb inline: numeric"}

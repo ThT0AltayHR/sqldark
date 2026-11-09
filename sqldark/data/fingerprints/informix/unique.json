@@ -1,0 +1,5 @@
+{
+ "dbms": "informix",
+ "probe": "unique",
+ "expression": "DBINFO('dbname')"
+}

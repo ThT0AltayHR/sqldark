@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "boolean", "boundary": {"prefix": "'", "suffix": "-- -", "type": "single"}, "vector": "{B} AND {T}", "comment": "pgsql boolean: single, inline comment"}

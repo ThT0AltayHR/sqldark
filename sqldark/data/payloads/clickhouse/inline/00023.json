@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "inline", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}=(SELECT ({Q}))", "comment": "clickhouse inline: url-enc single"}

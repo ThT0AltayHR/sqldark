@@ -1,0 +1,5 @@
+{
+ "dbms": "db2",
+ "probe": "unique",
+ "expression": "CURRENT SERVER"
+}

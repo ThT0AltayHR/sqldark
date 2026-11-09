@@ -1,0 +1,5 @@
+{
+ "dbms": "sybase",
+ "probe": "unique",
+ "expression": "@@servername"
+}

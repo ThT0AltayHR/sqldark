@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "stacked", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B}; SELECT 1", "comment": "oracle stacked: single, hash"}

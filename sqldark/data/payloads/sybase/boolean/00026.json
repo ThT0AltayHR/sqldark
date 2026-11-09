@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "boolean", "boundary": {"prefix": "", "suffix": "-- -", "type": "numeric"}, "vector": "{B} OR {T}", "comment": "sybase boolean: numeric, inline comment"}

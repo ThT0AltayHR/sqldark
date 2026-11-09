@@ -1,0 +1,5 @@
+{
+ "dbms": "sqlite",
+ "probe": "version",
+ "expression": "sqlite_version()"
+}

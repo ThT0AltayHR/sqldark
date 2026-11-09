@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "error", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND ({Q})>0", "comment": "mssql error: single+enc hash"}

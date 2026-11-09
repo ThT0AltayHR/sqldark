@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "inline", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "pgsql inline: single+enc hash"}

@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "time", "boundary": {"prefix": "\"", "suffix": "", "type": "double"}, "vector": "{B} AND sleep(5)", "comment": "clickhouse time: double"}

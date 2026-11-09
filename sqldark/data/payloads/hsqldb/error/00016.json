@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "error", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} AND 1=CAST(({Q}) AS INT)", "comment": "hsqldb error: single in 2 parens"}

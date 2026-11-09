@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "error", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} AND 1=CAST(({Q}) AS INTEGER)", "comment": "firebird error: double in paren"}

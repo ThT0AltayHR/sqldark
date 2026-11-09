@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "error", "boundary": {"prefix": "`", "suffix": "", "type": "backtick"}, "vector": "{B} AND 1=(({Q})::int)", "comment": "vertica error: backtick bare"}

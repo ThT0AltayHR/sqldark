@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "time", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} AND SLEEP(5)", "comment": "mariadb time: double in paren"}

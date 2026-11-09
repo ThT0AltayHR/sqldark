@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "error", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B} AND 1=load_extension(({Q}))", "comment": "sqlite error: num in paren"}

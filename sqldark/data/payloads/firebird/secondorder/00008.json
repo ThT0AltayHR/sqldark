@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "secondorder", "boundary": {"prefix": "'", "suffix": "/*", "type": "single"}, "vector": "{B}/*stored:{Q}*/", "comment": "firebird secondorder: single, block"}

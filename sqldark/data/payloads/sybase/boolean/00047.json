@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "boolean", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} OR {T}", "comment": "sybase boolean: single trailing ws"}

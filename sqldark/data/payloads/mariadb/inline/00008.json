@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "inline", "boundary": {"prefix": "'", "suffix": "/*", "type": "single"}, "vector": "{B}=(SELECT ({Q}))", "comment": "mariadb inline: single, block"}

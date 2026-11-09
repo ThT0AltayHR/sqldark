@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "boolean", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} OR {T}", "comment": "pgsql boolean: double in paren"}

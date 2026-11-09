@@ -1,0 +1,5 @@
+{
+ "dbms": "clickhouse",
+ "probe": "version",
+ "expression": "version()"
+}

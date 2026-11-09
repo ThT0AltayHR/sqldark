@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "inline", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B}=(SELECT ({Q}))", "comment": "access inline: num in paren bare"}

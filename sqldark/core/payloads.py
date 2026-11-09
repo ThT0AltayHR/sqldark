@@ -50,3 +50,31 @@ DBMS_ALIASES = {
 
 def dbms_key(name):
     return DBMS_ALIASES.get(name, DBMS_ALIASES.get((name or "").lower(), None))
+
+
+_BOUNDARY_CACHE = None
+
+
+def boundary_set(level=1):
+    """Unique (prefix, suffix) boundaries drawn from the on-disk payload library.
+    Higher --level exposes more of them, so the data files drive how wide the
+    technique sweeps go instead of a hard-coded list."""
+    global _BOUNDARY_CACHE
+    if _BOUNDARY_CACHE is None:
+        seen, out = set(), []
+        for p in load():
+            b = p.get("boundary") or {}
+            key = (b.get("prefix", ""), b.get("suffix", ""))
+            if key not in seen:
+                seen.add(key)
+                out.append(key)
+        _BOUNDARY_CACHE = out
+    # level 1 -> first 5, scaling up to the full set at level 5
+    n = {1: 5, 2: 10, 3: 16, 4: 22, 5: len(_BOUNDARY_CACHE)}.get(level, 5)
+    return _BOUNDARY_CACHE[:n]
+
+
+def vectors_for(dbms_key_or_name, technique):
+    """Raw vector strings from the library for a DBMS + technique."""
+    k = dbms_key(dbms_key_or_name) or dbms_key_or_name
+    return [p["vector"] for p in load(dbms=k, technique=technique)]

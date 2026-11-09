@@ -1,0 +1,5 @@
+{
+ "dbms": "firebird",
+ "probe": "version",
+ "expression": "rdb$get_context('SYSTEM','ENGINE_VERSION')"
+}

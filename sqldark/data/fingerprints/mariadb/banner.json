@@ -1,0 +1,5 @@
+{
+ "dbms": "mariadb",
+ "probe": "banner",
+ "expression": "@@version_comment"
+}

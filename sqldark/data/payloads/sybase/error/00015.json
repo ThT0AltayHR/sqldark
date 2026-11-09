@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "error", "boundary": {"prefix": "')", "suffix": "", "type": "paren-single"}, "vector": "{B} AND 1=convert(int,({Q}))", "comment": "sybase error: single in paren bare"}

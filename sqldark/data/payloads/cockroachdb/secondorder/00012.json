@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "secondorder", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B}/*stored:{Q}*/", "comment": "cockroachdb secondorder: num in paren"}

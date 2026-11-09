@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "secondorder", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B}/*stored:{Q}*/", "comment": "clickhouse secondorder: single trailing ws"}

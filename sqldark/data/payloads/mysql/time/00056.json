@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "time", "boundary": {"prefix": "'", "suffix": "", "type": "single"}, "vector": "{B} AND CASE WHEN ({T}) THEN SLEEP(5) ELSE SLEEP(0) END", "comment": "mysql time: single"}

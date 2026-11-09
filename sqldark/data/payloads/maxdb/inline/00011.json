@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "inline", "boundary": {"prefix": "\"", "suffix": "", "type": "double"}, "vector": "{B}=(SELECT ({Q}))", "comment": "maxdb inline: double"}

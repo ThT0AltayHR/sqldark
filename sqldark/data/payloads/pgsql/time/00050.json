@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "time", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B} AND (SELECT pg_sleep(5))", "comment": "pgsql time: terminator"}

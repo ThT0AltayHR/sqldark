@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "union", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL", "comment": "vertica union: single trailing ws"}

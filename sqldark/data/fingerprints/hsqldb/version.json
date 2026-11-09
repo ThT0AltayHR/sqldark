@@ -1,0 +1,5 @@
+{
+ "dbms": "hsqldb",
+ "probe": "version",
+ "expression": "(SELECT CHARACTER_VALUE FROM INFORMATION_SCHEMA.SYSTEM_PROPERTIES WHERE PROPERTY_NAME='sql.version')"
+}

@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "boolean", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B} OR {T}", "comment": "informix boolean: backtick"}

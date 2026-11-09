@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "boolean", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} OR {T}", "comment": "db2 boolean: single+enc hash"}

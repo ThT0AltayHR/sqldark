@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "union", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} UNION ALL SELECT NULL", "comment": "mariadb union: url-enc single"}

@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "error", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} AND 1=CAST(({Q}) AS INT)", "comment": "maxdb error: single trailing ws"}

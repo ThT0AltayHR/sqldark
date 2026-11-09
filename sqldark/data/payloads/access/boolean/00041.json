@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "boolean", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} OR {T}", "comment": "access boolean: single in 2 parens"}

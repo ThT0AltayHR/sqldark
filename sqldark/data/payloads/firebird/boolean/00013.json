@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "boolean", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} AND {T}", "comment": "firebird boolean: num in paren bare"}

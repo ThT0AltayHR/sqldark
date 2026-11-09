@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "error", "boundary": {"prefix": "'", "suffix": "/*", "type": "single"}, "vector": "{B} AND 1=(SELECT CAST(({Q}) AS INT))", "comment": "access error: single, block"}

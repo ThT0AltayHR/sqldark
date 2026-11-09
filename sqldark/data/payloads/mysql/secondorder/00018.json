@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "secondorder", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B}/*stored:{Q}*/", "comment": "mysql secondorder: double in paren"}

@@ -1,0 +1,5 @@
+{
+ "dbms": "hsqldb",
+ "probe": "unique",
+ "expression": "DATABASE()"
+}

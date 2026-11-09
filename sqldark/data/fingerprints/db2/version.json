@@ -1,0 +1,5 @@
+{
+ "dbms": "db2",
+ "probe": "version",
+ "expression": "(SELECT service_level FROM TABLE(sysproc.env_get_inst_info()))"
+}

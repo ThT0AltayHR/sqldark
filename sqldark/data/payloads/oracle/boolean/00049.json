@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "boolean", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} OR {T}", "comment": "oracle boolean: single+enc hash"}

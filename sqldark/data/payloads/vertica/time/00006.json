@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "time", "boundary": {"prefix": "'", "suffix": "", "type": "single"}, "vector": "{B} AND (SELECT COUNT(*) FROM tables)", "comment": "vertica time: single"}

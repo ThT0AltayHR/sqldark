@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "error", "boundary": {"prefix": "`", "suffix": "-- -", "type": "backtick"}, "vector": "{B} AND 1=toInt32(({Q}))", "comment": "clickhouse error: backtick"}

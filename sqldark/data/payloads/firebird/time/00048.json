@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "time", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B} AND (SELECT (SELECT COUNT(*) FROM RDB$DATABASE))", "comment": "firebird time: url-enc single"}

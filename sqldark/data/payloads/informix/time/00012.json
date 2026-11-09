@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "time", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B} AND (SELECT COUNT(*) FROM systables)", "comment": "informix time: num in paren"}

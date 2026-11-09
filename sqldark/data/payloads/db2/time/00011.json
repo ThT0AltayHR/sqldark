@@ -1,0 +1,1 @@
+{"dbms": "db2", "technique": "time", "boundary": {"prefix": "\"", "suffix": "", "type": "double"}, "vector": "{B} AND (SELECT COUNT(*) FROM SYSIBM.SYSTABLES)", "comment": "db2 time: double"}

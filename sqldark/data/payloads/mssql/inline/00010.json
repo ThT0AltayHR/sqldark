@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "inline", "boundary": {"prefix": "\"", "suffix": "#", "type": "double"}, "vector": "{B}=(SELECT ({Q}))", "comment": "mssql inline: double, hash"}

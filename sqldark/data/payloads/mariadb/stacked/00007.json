@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "stacked", "boundary": {"prefix": "'", "suffix": "-- ", "type": "single"}, "vector": "{B}; SELECT SLEEP(5)", "comment": "mariadb stacked: single, dashdash-space"}

@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "boolean", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} OR {T}", "comment": "clickhouse boolean: double in paren"}

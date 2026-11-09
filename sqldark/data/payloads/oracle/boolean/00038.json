@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "boolean", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} OR {T}", "comment": "oracle boolean: num in paren bare"}

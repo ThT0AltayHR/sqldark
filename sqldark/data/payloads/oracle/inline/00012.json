@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "inline", "boundary": {"prefix": ")", "suffix": "-- -", "type": "paren-num"}, "vector": "{B}=(SELECT ({Q}) FROM dual)", "comment": "oracle inline: num in paren"}

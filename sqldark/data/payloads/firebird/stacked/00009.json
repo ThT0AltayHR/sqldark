@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "stacked", "boundary": {"prefix": "\"", "suffix": "-- -", "type": "double"}, "vector": "{B}; SELECT (SELECT COUNT(*) FROM RDB$DATABASE)", "comment": "firebird stacked: double, inline comment"}

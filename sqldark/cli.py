@@ -31,12 +31,21 @@ def build_parser():
     req.add_argument("--delay", type=float, default=0.0, help="delay between requests (s)")
     req.add_argument("--retries", type=int, default=2)
     req.add_argument("--random-agent", action="store_true", help="rotate User-Agent")
+    req.add_argument("--random-delay", type=float, default=0.0,
+                     help="add up to N seconds of random jitter per request (human-like)")
+    req.add_argument("--csrf-url", help="URL to fetch a fresh anti-CSRF token from")
+    req.add_argument("--csrf-token", dest="csrf_field",
+                     help="name of the anti-CSRF token field to refresh")
 
     det = p.add_argument_group("detection")
     det.add_argument("--technique", default=DEFAULT_ORDER,
                      help=f"technique letters to use (default {DEFAULT_ORDER}: "
                           "E=error B=boolean U=union T=time)")
     det.add_argument("--skip-waf", action="store_true", help="skip WAF fingerprinting")
+    det.add_argument("--level", type=int, default=1, choices=range(1,6),
+                     help="1-5: how many payload-library boundaries to try (wider=deeper)")
+    det.add_argument("--risk", type=int, default=1, choices=range(1,4),
+                     help="1-3: how aggressive the payloads may be")
 
     ev = p.add_argument_group("evasion")
     ev.add_argument("--tamper", help="comma-separated tamper scripts")
@@ -133,6 +142,8 @@ def main(argv=None):
         log, timeout=args.timeout, delay=args.delay, retries=args.retries,
         proxy=args.proxy, headers=parse_headers(args.header),
         cookies=args.cookie, tampers=tampers, random_agent=args.random_agent,
+        random_delay=args.random_delay, csrf_url=args.csrf_url,
+        csrf_field=args.csrf_field,
     )
 
     store = SessionStore() if (args.session or args.export) else None
@@ -142,7 +153,8 @@ def main(argv=None):
                  f"(saved {prior.get('_saved_at','?')}, DBMS {prior.get('dbms','?')})")
 
     engine = Engine(http, log, techniques=args.technique, skip_waf=args.skip_waf,
-                    auto_tamper=getattr(args, 'auto_tamper', False))
+                    auto_tamper=getattr(args, 'auto_tamper', False),
+                    level=args.level, risk=args.risk)
     enum_opts = {
         "banner": args.banner, "current_db": args.current_db,
         "tables": args.tables, "columns": args.columns, "dump": args.dump,

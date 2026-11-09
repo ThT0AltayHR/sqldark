@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "secondorder", "boundary": {"prefix": "')) ", "suffix": "-- -", "type": "paren2-single-ws"}, "vector": "{B}/*stored:{Q}*/", "comment": "pgsql secondorder: single in 2 parens ws"}

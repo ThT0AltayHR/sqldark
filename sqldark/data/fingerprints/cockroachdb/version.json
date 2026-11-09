@@ -1,0 +1,5 @@
+{
+ "dbms": "cockroachdb",
+ "probe": "version",
+ "expression": "version()"
+}

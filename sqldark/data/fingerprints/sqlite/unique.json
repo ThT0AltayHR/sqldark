@@ -1,0 +1,5 @@
+{
+ "dbms": "sqlite",
+ "probe": "unique",
+ "expression": "(SELECT 1)"
+}

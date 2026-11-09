@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "boolean", "boundary": {"prefix": "' ", "suffix": "-- -", "type": "single-ws"}, "vector": "{B} OR {T}", "comment": "mariadb boolean: single trailing ws"}

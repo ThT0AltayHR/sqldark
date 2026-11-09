@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "secondorder", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}/*stored:{Q}*/", "comment": "sqlite secondorder: url-enc single"}

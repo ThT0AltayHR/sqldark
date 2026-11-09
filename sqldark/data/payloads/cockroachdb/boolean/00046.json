@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "boolean", "boundary": {"prefix": "'||", "suffix": "-- -", "type": "concat"}, "vector": "{B} OR {T}", "comment": "cockroachdb boolean: single+concat"}

@@ -1,0 +1,1 @@
+{"dbms": "sqlite", "technique": "boolean", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND {T}", "comment": "sqlite boolean: single+enc hash"}

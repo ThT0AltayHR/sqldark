@@ -1,0 +1,5 @@
+{
+ "dbms": "vertica",
+ "probe": "version",
+ "expression": "version()"
+}

@@ -1,0 +1,5 @@
+{
+ "dbms": "access",
+ "probe": "unique",
+ "expression": "(SELECT COUNT(*) FROM MSysObjects)"
+}

@@ -1,0 +1,5 @@
+{
+ "dbms": "mssql",
+ "probe": "version",
+ "expression": "@@version"
+}

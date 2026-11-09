@@ -1,0 +1,1 @@
+{"dbms": "mssql", "technique": "secondorder", "boundary": {"prefix": "%27", "suffix": "-- -", "type": "single-enc"}, "vector": "{B}/*stored:{Q}*/", "comment": "mssql secondorder: url-enc single"}

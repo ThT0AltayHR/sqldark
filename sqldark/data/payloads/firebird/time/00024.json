@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT COUNT(*) FROM RDB$DATABASE)", "comment": "firebird time: single+enc hash"}

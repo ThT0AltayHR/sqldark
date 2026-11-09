@@ -1,0 +1,1 @@
+{"dbms": "firebird", "technique": "time", "boundary": {"prefix": "\")", "suffix": "-- -", "type": "paren-double"}, "vector": "{B} AND CASE WHEN ({T}) THEN (SELECT COUNT(*) FROM RDB$DATABASE) ELSE (SELECT COUNT(*) FROM RDB$DATABASE) END", "comment": "firebird time: double in paren"}

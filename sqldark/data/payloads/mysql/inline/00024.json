@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "inline", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B}=(SELECT ({Q}))", "comment": "mysql inline: single+enc hash"}

@@ -1,0 +1,1 @@
+{"dbms": "vertica", "technique": "boolean", "boundary": {"prefix": "\"", "suffix": "#", "type": "double"}, "vector": "{B} OR {T}", "comment": "vertica boolean: double, hash"}

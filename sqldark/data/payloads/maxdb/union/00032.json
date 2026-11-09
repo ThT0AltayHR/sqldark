@@ -1,0 +1,1 @@
+{"dbms": "maxdb", "technique": "union", "boundary": {"prefix": "'", "suffix": "-- ", "type": "single"}, "vector": "{B} UNION ALL SELECT NULL,NULL", "comment": "maxdb union: single, dashdash-space"}

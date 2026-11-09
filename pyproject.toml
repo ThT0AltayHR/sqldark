@@ -11,6 +11,13 @@ requires-python = ">=3.8"
 license = { text = "MIT" }
 authors = [{ name = "Muhammed Balin" }]
 keywords = ["sql injection", "sqli", "pentest", "security", "sqlmap", "waf bypass"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Security",
+    "Environment :: Console",
+]
 dependencies = [
     "requests>=2.25",
 ]
@@ -28,4 +35,10 @@ sqldark = "sqldark.cli:main"
 include = ["sqldark*"]
 
 [tool.setuptools.package-data]
-sqldark = ["data/*.txt", "data/*.json"]
+sqldark = [
+    "data/**/*.json",
+    "data/**/*.txt",
+    "waf/*.json",
+    "waf/signatures/*.json",
+    "tamper/scripts/*.py",
+]

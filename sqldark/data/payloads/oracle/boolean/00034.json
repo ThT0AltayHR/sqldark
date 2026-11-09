@@ -1,0 +1,1 @@
+{"dbms": "oracle", "technique": "boolean", "boundary": {"prefix": "\"", "suffix": "-- -", "type": "double"}, "vector": "{B} OR {T}", "comment": "oracle boolean: double, inline comment"}

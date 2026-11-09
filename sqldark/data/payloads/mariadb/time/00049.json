@@ -1,0 +1,1 @@
+{"dbms": "mariadb", "technique": "time", "boundary": {"prefix": "'%23", "suffix": "", "type": "single-enc-hash"}, "vector": "{B} AND (SELECT SLEEP(5))", "comment": "mariadb time: single+enc hash"}
