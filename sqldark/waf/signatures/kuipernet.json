@@ -1,0 +1,6 @@
+{
+ "id": "kuipernet",
+ "name": "Kuipernet",
+ "company": "ASTSoft",
+ "regex": "(?s)Content-Length: 118214.+W5M0MpCehiHzreSzNTczkc9d"
+}

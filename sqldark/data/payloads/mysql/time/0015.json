@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B} AND (SELECT SLEEP({SLEEP}))",
+ "comment": "mysql time via numeric unquoted"
+}

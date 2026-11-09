@@ -1,0 +1,6 @@
+{
+ "id": "bulletproof",
+ "name": "BulletProof Security Pro",
+ "company": "AITpro Website Security",
+ "regex": "(?s)bpsMessage.+?403 Forbidden Error Page.+?If you arrived here due to a search or clicking on a link"
+}

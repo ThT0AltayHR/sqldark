@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B}; WAITFOR DELAY '0:0:{SLEEP}'-- -",
+ "comment": "mssql stacked via double-quoted + inline comment"
+}

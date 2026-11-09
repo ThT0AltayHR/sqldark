@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "#",
+  "type": "single-quote",
+  "desc": "single-quoted + hash comment"
+ },
+ "vector": "{B} OR cast(({Q}) as numeric)",
+ "comment": "pgsql error via single-quoted + hash comment"
+}

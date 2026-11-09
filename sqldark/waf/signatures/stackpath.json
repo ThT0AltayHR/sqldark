@@ -1,0 +1,6 @@
+{
+ "id": "stackpath",
+ "name": "StackPath",
+ "company": "StackPath",
+ "regex": "You performed an action that triggered the service and blocked your request"
+}

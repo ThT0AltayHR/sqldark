@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "error",
+ "boundary": {
+  "prefix": ")",
+  "suffix": "",
+  "type": "paren-numeric",
+  "desc": "numeric inside parenthesis"
+ },
+ "vector": "{B} AND ({Q}) GLOB cast(x'00' as text)",
+ "comment": "sqlite error via numeric inside parenthesis"
+}

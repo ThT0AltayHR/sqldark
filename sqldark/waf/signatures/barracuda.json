@@ -1,0 +1,6 @@
+{
+ "id": "barracuda",
+ "name": "Barracuda",
+ "company": "Barracuda Networks",
+ "regex": "\\bbarracuda_|barra_counter_session=|when this page occurred and the event ID found at the bottom of the page|<!--(0123456789){15}"
+}

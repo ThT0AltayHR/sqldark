@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "boolean",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "#",
+  "type": "single-quote",
+  "desc": "single-quoted + hash comment"
+ },
+ "vector": "{B} AND {T}",
+ "comment": "oracle boolean via single-quoted + hash comment"
+}

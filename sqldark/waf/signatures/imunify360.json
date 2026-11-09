@@ -1,0 +1,6 @@
+{
+ "id": "imunify360",
+ "name": "Imunify360",
+ "company": "CloudLinux",
+ "regex": "Server: imunify360-webshield|protected by Imunify360|Powered by Imunify360|imunify360 preloader"
+}

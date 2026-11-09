@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "error",
+ "boundary": {
+  "prefix": "`",
+  "suffix": "",
+  "type": "backtick",
+  "desc": "backtick-quoted (MySQL)"
+ },
+ "vector": "{B} AND 1=ctxsys.drithsx.sn(1,({Q}))",
+ "comment": "oracle error via backtick-quoted (MySQL)"
+}

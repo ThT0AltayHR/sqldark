@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "time",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B} AND CASE WHEN ({T}) THEN randomblob(100000000) ELSE 0 END",
+ "comment": "sqlite time via double-quoted + inline comment"
+}

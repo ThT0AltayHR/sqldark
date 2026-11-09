@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "",
+  "type": "double-quote",
+  "desc": "double-quoted string"
+ },
+ "vector": "{B}; SELECT SLEEP({SLEEP})-- -",
+ "comment": "mysql stacked via double-quoted string"
+}

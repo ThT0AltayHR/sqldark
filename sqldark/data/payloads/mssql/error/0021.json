@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B} AND ({Q})>0",
+ "comment": "mssql error via numeric unquoted"
+}

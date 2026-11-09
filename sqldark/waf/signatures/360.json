@@ -1,0 +1,6 @@
+{
+ "id": "360",
+ "name": "360",
+ "company": "360",
+ "regex": "<title>493</title>|/wzws-waf-cgi/"
+}

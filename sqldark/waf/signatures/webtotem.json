@@ -1,0 +1,6 @@
+{
+ "id": "webtotem",
+ "name": "WebTotem",
+ "company": "WebTotem",
+ "regex": "The current request was blocked by.+?>WebTotem<"
+}

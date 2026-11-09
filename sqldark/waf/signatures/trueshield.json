@@ -1,0 +1,6 @@
+{
+ "id": "sitelock",
+ "name": "TrueShield",
+ "company": "SiteLock",
+ "regex": "SiteLock Incident ID|SiteLock will remember you and will not show this page again|<span class=\\\"value INCIDENT_ID\\\">"
+}

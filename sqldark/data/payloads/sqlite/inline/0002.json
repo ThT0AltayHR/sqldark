@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "",
+  "type": "single-quote",
+  "desc": "single-quoted string"
+ },
+ "vector": "{B}=(SELECT ({Q}))",
+ "comment": "sqlite inline via single-quoted string"
+}

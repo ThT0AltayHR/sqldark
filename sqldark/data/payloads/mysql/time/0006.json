@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B} AND SLEEP({SLEEP})",
+ "comment": "mysql time via double-quoted + inline comment"
+}

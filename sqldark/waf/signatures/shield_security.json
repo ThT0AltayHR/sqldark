@@ -1,0 +1,6 @@
+{
+ "id": "shieldsecurity",
+ "name": "Shield Security",
+ "company": "One Dollar Plugin",
+ "regex": "Something in the URL, Form or Cookie data wasn't appropriate"
+}

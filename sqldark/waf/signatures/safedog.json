@@ -1,0 +1,6 @@
+{
+ "id": "safedog",
+ "name": "Safedog",
+ "company": "Safedog",
+ "regex": "Server: Safedog|safedogsite/broswer_logo\\.jpg|404\\.safedog\\.cn/sitedog_stat\\.html|404\\.safedog\\.cn/images/safedogsite/head\\.png"
+}

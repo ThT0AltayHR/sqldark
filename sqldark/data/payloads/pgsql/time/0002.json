@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "",
+  "type": "single-quote",
+  "desc": "single-quoted string"
+ },
+ "vector": "{B} AND (SELECT pg_sleep({SLEEP}))",
+ "comment": "pgsql time via single-quoted string"
+}

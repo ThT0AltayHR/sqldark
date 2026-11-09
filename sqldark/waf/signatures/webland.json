@@ -1,0 +1,6 @@
+{
+ "id": "webland",
+ "name": "WebLand",
+ "company": "WebLand",
+ "regex": "Server: Apache Protected by Webland WAF"
+}

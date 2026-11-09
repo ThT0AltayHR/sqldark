@@ -1,0 +1,6 @@
+{
+ "id": "astra",
+ "name": "Astra",
+ "company": "Czar Securities",
+ "regex": "(?s)unfortunately our website protection system.+?//www\\.getastra\\.com"
+}

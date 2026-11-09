@@ -1,0 +1,6 @@
+{
+ "id": "chuangyu",
+ "name": "Chuang Yu Shield",
+ "company": "Yunaq",
+ "regex": " \\d+\\.\\d+\\.\\d+\\.\\d+/[0-9a-f]{7} \\[\\d+\\] "
+}

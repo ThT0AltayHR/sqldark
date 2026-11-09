@@ -1,0 +1,6 @@
+{
+ "id": "nexusguard",
+ "name": "Nexusguard",
+ "company": "Nexusguard Limited",
+ "regex": "speresources\\.nexusguard\\.com/wafpage/[^>]*#\\d{3};|<p>Powered by Nexusguard</p>"
+}

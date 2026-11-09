@@ -1,0 +1,6 @@
+{
+ "id": "gtmc",
+ "name": "GTMC WAF",
+ "company": "GTMC",
+ "regex": "GTMC WAF1 Protection:|Please consult with administrator or waf@nm.gtmc.com.tw"
+}

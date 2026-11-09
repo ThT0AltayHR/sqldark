@@ -1,0 +1,6 @@
+{
+ "id": "webarx",
+ "name": "WebARX",
+ "company": "WebARX",
+ "regex": "/wp-content/plugins/webarx/includes/|This request has been blocked by.+?>WebARX<"
+}

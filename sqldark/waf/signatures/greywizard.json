@@ -1,0 +1,6 @@
+{
+ "id": "greywizard",
+ "name": "Greywizard",
+ "company": "Grey Wizard",
+ "regex": "(?i)server: greywizard|detected attempted attack or non standard traffic from your IP address|<title>Grey Wizard</title>"
+}

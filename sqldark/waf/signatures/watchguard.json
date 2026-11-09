@@ -1,0 +1,6 @@
+{
+ "id": "watchguard",
+ "name": "WatchGuard",
+ "company": "WatchGuard Technologies",
+ "regex": "Server: WatchGuard|Request denied by WatchGuard Firewall"
+}

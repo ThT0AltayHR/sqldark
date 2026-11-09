@@ -1,0 +1,6 @@
+{
+ "id": "siteguard",
+ "name": "SiteGuard",
+ "company": "JP-Secure",
+ "regex": "Powered by SiteGuard|The server refuse to browse the page"
+}

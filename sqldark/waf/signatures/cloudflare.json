@@ -1,0 +1,6 @@
+{
+ "id": "cloudflare",
+ "name": "CloudFlare",
+ "company": "CloudFlare",
+ "regex": "Attention Required! \\| Cloudflare|CLOUDFLARE_ERROR_"
+}

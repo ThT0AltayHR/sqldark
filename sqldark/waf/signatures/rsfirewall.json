@@ -1,0 +1,6 @@
+{
+ "id": "rsfirewall",
+ "name": "RSFirewall",
+ "company": "RSJoomla!",
+ "regex": "COM_RSFIREWALL_"
+}

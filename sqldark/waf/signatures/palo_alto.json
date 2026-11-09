@@ -1,0 +1,6 @@
+{
+ "id": "paloalto",
+ "name": "Palo Alto",
+ "company": "Palo Alto Networks",
+ "regex": "has been blocked in accordance with company policy|Palo Alto Next Generation Security Platform"
+}

@@ -1,0 +1,6 @@
+{
+ "id": "yundun",
+ "name": "Yundun",
+ "company": "Yundun",
+ "regex": "Blocked by YUNDUN Cloud WAF|yundun\\.com/yd_http_error/"
+}

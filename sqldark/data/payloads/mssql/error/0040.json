@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "`",
+  "suffix": "",
+  "type": "backtick",
+  "desc": "backtick-quoted (MySQL)"
+ },
+ "vector": "{B} OR 1=convert(int,({Q}))",
+ "comment": "mssql error via backtick-quoted (MySQL)"
+}

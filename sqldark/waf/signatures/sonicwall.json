@@ -1,0 +1,6 @@
+{
+ "id": "sonicwall",
+ "name": "SonicWALL",
+ "company": "Dell",
+ "regex": "Server: SonicWALL|(?s)<title>Web Site Blocked</title>.+?nsa_banner"
+}

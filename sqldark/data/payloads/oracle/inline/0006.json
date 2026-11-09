@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B}=(SELECT ({Q}) FROM dual)",
+ "comment": "oracle inline via double-quoted + inline comment"
+}

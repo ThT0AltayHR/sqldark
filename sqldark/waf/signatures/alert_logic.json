@@ -1,0 +1,6 @@
+{
+ "id": "alertlogic",
+ "name": "Alert Logic",
+ "company": "Alert Logic",
+ "regex": "(?s)timed_redirect\\(seconds, url\\).+?<p class=\"lid\">Reference ID:"
+}

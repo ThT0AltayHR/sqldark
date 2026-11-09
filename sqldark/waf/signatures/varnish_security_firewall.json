@@ -1,0 +1,6 @@
+{
+ "id": "vsf",
+ "name": "Varnish Security Firewall",
+ "company": "Varnish Cache Project",
+ "regex": "<title>403 Naughty, not nice!</title>"
+}

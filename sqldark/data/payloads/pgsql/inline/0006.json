@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B}=(SELECT ({Q}))",
+ "comment": "pgsql inline via double-quoted + inline comment"
+}

@@ -1,0 +1,6 @@
+{
+ "id": "securesphere",
+ "name": "SecureSphere",
+ "company": "Imperva",
+ "regex": "<H2>Error</H2>.+?#FEEE7A.+?<STRONG>Error</STRONG>|Contact support for additional information.<br/>The incident ID is: (\\d{19}|N/A)"
+}

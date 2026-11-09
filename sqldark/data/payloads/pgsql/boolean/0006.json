@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "boolean",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B} AND {T}",
+ "comment": "pgsql boolean via double-quoted + inline comment"
+}

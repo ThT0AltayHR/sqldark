@@ -1,0 +1,6 @@
+{
+ "id": "godaddy",
+ "name": "GoDaddy Website Security",
+ "company": "GoDaddy",
+ "regex": "GoDaddy Security - Access Denied|Access Denied - GoDaddy Website Firewall"
+}

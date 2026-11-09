@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "error",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B} AND 1=load_extension(({Q}))",
+ "comment": "sqlite error via double-quoted + inline comment"
+}

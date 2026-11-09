@@ -1,0 +1,6 @@
+{
+ "id": "radware",
+ "name": "AppWall",
+ "company": "Radware",
+ "regex": "Unauthorized Request Blocked|You are seeing this page because we have detected unauthorized activity|mailto:CloudWebSec@radware\\.com"
+}

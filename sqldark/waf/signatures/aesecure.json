@@ -1,0 +1,6 @@
+{
+ "id": "aesecure",
+ "name": "aeSecure",
+ "company": "aeSecure",
+ "regex": "aesecure_denied\\.png|aesecure-code: \\d+"
+}

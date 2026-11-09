@@ -1,0 +1,6 @@
+{
+ "id": "onmessageshield",
+ "name": "onMessage Shield",
+ "company": "Blackbaud",
+ "regex": "This site is protected by an enhanced security system to ensure a safe browsing experience|onMessage SHIELD"
+}

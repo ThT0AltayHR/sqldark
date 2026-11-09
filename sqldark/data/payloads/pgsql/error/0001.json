@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B} AND cast(({Q}) as numeric)",
+ "comment": "pgsql error via numeric unquoted"
+}

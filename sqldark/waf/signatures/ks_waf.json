@@ -1,0 +1,6 @@
+{
+ "id": "knownsec",
+ "name": "KS-WAF",
+ "company": "Knownsec",
+ "regex": "url\\('/ks-waf-error\\.png'\\)"
+}

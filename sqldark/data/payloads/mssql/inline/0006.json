@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B}=(SELECT ({Q}))",
+ "comment": "mssql inline via double-quoted + inline comment"
+}

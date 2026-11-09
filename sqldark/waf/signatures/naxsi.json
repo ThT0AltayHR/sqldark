@@ -1,0 +1,6 @@
+{
+ "id": "naxsi",
+ "name": "NAXSI",
+ "company": "NBS System",
+ "regex": "(?i)Blocked By NAXSI|Naxsi Blocked Information|naxsi/waf"
+}

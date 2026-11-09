@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "error",
+ "boundary": {
+  "prefix": "`",
+  "suffix": "",
+  "type": "backtick",
+  "desc": "backtick-quoted (MySQL)"
+ },
+ "vector": "{B} AND ({Q}) GLOB cast(x'00' as text)",
+ "comment": "sqlite error via backtick-quoted (MySQL)"
+}

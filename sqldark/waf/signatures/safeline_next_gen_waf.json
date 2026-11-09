@@ -1,0 +1,6 @@
+{
+ "id": "safeline",
+ "name": "SafeLine Next Gen WAF",
+ "company": "Chaitin Tech",
+ "regex": "<!\\-\\- event_id: [0-9a-f]{32} \\-\\->"
+}

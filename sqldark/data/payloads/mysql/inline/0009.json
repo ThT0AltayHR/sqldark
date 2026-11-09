@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "",
+  "type": "single-quote",
+  "desc": "single-quoted string"
+ },
+ "vector": "{B} AND 1=(SELECT ({Q}))",
+ "comment": "mysql inline via single-quoted string"
+}

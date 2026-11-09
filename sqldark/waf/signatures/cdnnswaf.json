@@ -1,0 +1,6 @@
+{
+ "id": "cdnns",
+ "name": "CdnNsWAF",
+ "company": "CdnNs/WdidcNet",
+ "regex": "by CdnNsWAF Application Gateway"
+}

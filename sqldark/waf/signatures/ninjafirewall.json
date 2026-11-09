@@ -1,0 +1,6 @@
+{
+ "id": "ninjafirewall",
+ "name": "NinjaFirewall",
+ "company": "NinTechNet",
+ "regex": "<title>NinjaFirewall: 403 Forbidden|For security reasons?, it was blocked and logged"
+}

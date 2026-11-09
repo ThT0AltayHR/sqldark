@@ -1,0 +1,6 @@
+{
+ "id": "secupress",
+ "name": "SecuPress",
+ "company": "SecuPress",
+ "regex": "<h1>SecuPress</h1><h2>\\d{3}"
+}

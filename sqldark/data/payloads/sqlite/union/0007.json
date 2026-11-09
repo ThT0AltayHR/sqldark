@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "union",
+ "boundary": {
+  "prefix": "')",
+  "suffix": "-- -",
+  "type": "paren-single",
+  "desc": "single-quoted inside parenthesis"
+ },
+ "vector": "{B} UNION ALL SELECT {COLS}-- -",
+ "comment": "sqlite union via single-quoted inside parenthesis"
+}

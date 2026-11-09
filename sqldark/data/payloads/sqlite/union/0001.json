@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "union",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B} UNION ALL SELECT {COLS}-- -",
+ "comment": "sqlite union via numeric unquoted"
+}

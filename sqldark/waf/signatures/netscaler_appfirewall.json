@@ -1,0 +1,6 @@
+{
+ "id": "netscaler",
+ "name": "NetScaler AppFirewall",
+ "company": "Citrix",
+ "regex": "<title>Application Firewall Block Page</title>|Violation Category: APPFW_|AppFW Session ID|Access has been blocked - if you feel this is in error, please contact the site administrators quoting the following"
+}

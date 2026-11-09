@@ -1,0 +1,6 @@
+{
+ "id": "approach",
+ "name": "Approach",
+ "company": "Approach",
+ "regex": "Approach.+?Web Application (Firewall|Filtering)"
+}

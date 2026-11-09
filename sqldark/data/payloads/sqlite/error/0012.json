@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "error",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "",
+  "type": "single-quote",
+  "desc": "single-quoted string"
+ },
+ "vector": "{B} AND ({Q}) GLOB cast(x'00' as text)",
+ "comment": "sqlite error via single-quoted string"
+}

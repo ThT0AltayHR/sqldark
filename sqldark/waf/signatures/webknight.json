@@ -1,0 +1,6 @@
+{
+ "id": "webknight",
+ "name": "WebKnight",
+ "company": "AQTRONIX",
+ "regex": "WebKnight Application Firewall Alert|AQTRONIX WebKnight|HTTP Error 999\\.0 - AW Special Error"
+}

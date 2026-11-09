@@ -1,0 +1,6 @@
+{
+ "id": "safe3",
+ "name": "Safe3",
+ "company": "Safe3",
+ "regex": "Server: Safe3 Web Firewall|Safe3waf/"
+}

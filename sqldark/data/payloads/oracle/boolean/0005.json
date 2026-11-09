@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "boolean",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "",
+  "type": "double-quote",
+  "desc": "double-quoted string"
+ },
+ "vector": "{B} AND {T}",
+ "comment": "oracle boolean via double-quoted string"
+}

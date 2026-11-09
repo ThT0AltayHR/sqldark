@@ -1,0 +1,6 @@
+{
+ "id": "jiasule",
+ "name": "Jiasule",
+ "company": "Jiasule",
+ "regex": "Server: jiasule-WAF|notice-jiasule|static\\.jiasule\\.com/static/js/http_error\\.js"
+}

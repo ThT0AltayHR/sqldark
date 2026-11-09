@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B} AND CASE WHEN ({T}) THEN pg_sleep({SLEEP}) ELSE pg_sleep(0) END",
+ "comment": "pgsql time via numeric unquoted"
+}

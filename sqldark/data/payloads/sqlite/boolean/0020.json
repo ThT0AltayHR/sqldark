@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "boolean",
+ "boundary": {
+  "prefix": "`",
+  "suffix": "",
+  "type": "backtick",
+  "desc": "backtick-quoted (MySQL)"
+ },
+ "vector": "{B} OR {T}",
+ "comment": "sqlite boolean via backtick-quoted (MySQL)"
+}

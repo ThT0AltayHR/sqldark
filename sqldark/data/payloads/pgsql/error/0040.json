@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "`",
+  "suffix": "",
+  "type": "backtick",
+  "desc": "backtick-quoted (MySQL)"
+ },
+ "vector": "{B} OR cast(({Q}) as numeric)",
+ "comment": "pgsql error via backtick-quoted (MySQL)"
+}

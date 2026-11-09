@@ -1,0 +1,6 @@
+{
+ "id": "urlmaster",
+ "name": "Url Master SecurityCheck",
+ "company": "iFinity/DotNetNuke",
+ "regex": "UrlRewriteModule\\.SecurityCheck|X-UrlMaster-(Debug|Ex):"
+}

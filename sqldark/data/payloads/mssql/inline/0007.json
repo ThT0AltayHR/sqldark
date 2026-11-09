@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "')",
+  "suffix": "-- -",
+  "type": "paren-single",
+  "desc": "single-quoted inside parenthesis"
+ },
+ "vector": "{B}=(SELECT ({Q}))",
+ "comment": "mssql inline via single-quoted inside parenthesis"
+}

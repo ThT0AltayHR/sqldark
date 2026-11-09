@@ -1,0 +1,6 @@
+{
+ "id": "siteground",
+ "name": "SiteGround",
+ "company": "SiteGround",
+ "regex": "The page you are trying to access is restricted due to a security rule|Our system thinks you might be a robot!|/.well-known/captcha/"
+}

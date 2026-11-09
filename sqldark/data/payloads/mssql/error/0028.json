@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "')",
+  "suffix": "-- -",
+  "type": "paren-single",
+  "desc": "single-quoted inside parenthesis"
+ },
+ "vector": "{B} AND ({Q})>0",
+ "comment": "mssql error via single-quoted inside parenthesis"
+}

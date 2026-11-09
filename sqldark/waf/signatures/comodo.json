@@ -1,0 +1,6 @@
+{
+ "id": "comodo",
+ "name": "Comodo",
+ "company": "Comodo",
+ "regex": "Server: Protected by COMODO WAF"
+}

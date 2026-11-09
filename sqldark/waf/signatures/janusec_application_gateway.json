@@ -1,0 +1,6 @@
+{
+ "id": "janusec",
+ "name": "Janusec Application Gateway",
+ "company": "Janusec",
+ "regex": "Reason:.+by Janusec Application Gateway"
+}

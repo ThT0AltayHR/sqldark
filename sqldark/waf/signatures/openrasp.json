@@ -1,0 +1,6 @@
+{
+ "id": "openrasp",
+ "name": "OpenRASP",
+ "company": "Blackbaud",
+ "regex": "400 - Request blocked by OpenRASP|https://rasp.baidu.com/blocked2?/"
+}

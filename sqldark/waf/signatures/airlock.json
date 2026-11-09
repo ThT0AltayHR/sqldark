@@ -1,0 +1,6 @@
+{
+ "id": "airlock",
+ "name": "Airlock",
+ "company": "Phion/Ergon",
+ "regex": "The server detected a syntax error in your request"
+}

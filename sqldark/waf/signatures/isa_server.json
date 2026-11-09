@@ -1,0 +1,6 @@
+{
+ "id": "isaserver",
+ "name": "ISA Server",
+ "company": "Microsoft",
+ "regex": "The (ISA Server|server) denied the specified Uniform Resource Locator \\(URL\\)"
+}

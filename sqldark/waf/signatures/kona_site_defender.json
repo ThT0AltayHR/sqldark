@@ -1,0 +1,6 @@
+{
+ "id": "kona",
+ "name": "Kona Site Defender",
+ "company": "Akamai Technologies",
+ "regex": "(?s)Server: AkamaiGHost.+?You don't have permission to access|\\b18\\.[0-9a-f]{8}.1[0-9]{9}\\.[0-9a-f]{7}\\b"
+}

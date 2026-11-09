@@ -1,0 +1,6 @@
+{
+ "id": "crawlprotect",
+ "name": "CrawlProtect",
+ "company": "Jean-Denis Brun",
+ "regex": "<title>CrawlProtect|This site is protected by CrawlProtectc|Set-Cookie: crawlprotecttag"
+}

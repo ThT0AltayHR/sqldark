@@ -1,0 +1,6 @@
+{
+ "id": "secureiis",
+ "name": "SecureIIS Web Server Security",
+ "company": "BeyondTrust",
+ "regex": "//www\\.eeye\\.com/SecureIIS/|\\?subject=[^>]*SecureIIS Error|SecureIIS[^<]+Web Server Protection"
+}

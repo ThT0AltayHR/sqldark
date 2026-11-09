@@ -1,0 +1,6 @@
+{
+ "id": "wallarm",
+ "name": "Wallarm",
+ "company": "Wallarm",
+ "regex": "Server: nginx-wallarm"
+}

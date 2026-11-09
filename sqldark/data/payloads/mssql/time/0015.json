@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "time",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B} AND 1=(SELECT 1 WHERE {T}) WAITFOR DELAY '0:0:{SLEEP}'-- -",
+ "comment": "mssql time via numeric unquoted"
+}

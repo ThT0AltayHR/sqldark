@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "#",
+  "type": "single-quote",
+  "desc": "single-quoted + hash comment"
+ },
+ "vector": "{B}=(SELECT ({Q}))",
+ "comment": "pgsql inline via single-quoted + hash comment"
+}

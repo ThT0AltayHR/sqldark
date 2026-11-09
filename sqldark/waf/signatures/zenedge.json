@@ -1,0 +1,6 @@
+{
+ "id": "zenedge",
+ "name": "Zenedge",
+ "company": "Zenedge",
+ "regex": "(?s)Server: ZENEDGE.+?<div class=\\\"number\\\">403</div>"
+}

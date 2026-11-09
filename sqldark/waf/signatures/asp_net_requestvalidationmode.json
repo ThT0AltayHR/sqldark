@@ -1,0 +1,6 @@
+{
+ "id": "requestvalidationmode",
+ "name": "ASP.NET RequestValidationMode",
+ "company": "Microsoft",
+ "regex": "HttpRequestValidationException|Request Validation has detected a potentially dangerous client input value|ASP\\.NET has detected data in the request that is potentially dangerous"
+}

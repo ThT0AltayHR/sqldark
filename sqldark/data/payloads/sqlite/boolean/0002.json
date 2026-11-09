@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "boolean",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "",
+  "type": "single-quote",
+  "desc": "single-quoted string"
+ },
+ "vector": "{B} AND {T}",
+ "comment": "sqlite boolean via single-quoted string"
+}

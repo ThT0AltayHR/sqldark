@@ -1,0 +1,6 @@
+{
+ "id": "tencent",
+ "name": "Tencent Cloud|Waterproof Wall",
+ "company": "Tencent Cloud Computing",
+ "regex": "waf\\.tencent-cloud\\.com|window.location.href=.https://waf.tencent.com/501page.html"
+}

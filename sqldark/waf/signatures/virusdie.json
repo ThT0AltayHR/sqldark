@@ -1,0 +1,6 @@
+{
+ "id": "virusdie",
+ "name": "Virusdie",
+ "company": "Virusdie LLC",
+ "regex": "Virusdie</title>|http://cdn\\.virusdie\\.ru/splash/firewallstop\\.png|<meta name=\\\"FW_BLOCK\\\""
+}

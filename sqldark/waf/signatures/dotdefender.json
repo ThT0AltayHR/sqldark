@@ -1,0 +1,6 @@
+{
+ "id": "dotdefender",
+ "name": "dotDefender",
+ "company": "Applicure Technologies",
+ "regex": "dotDefender Blocked Your Request|Applicure is the leading provider of web application security|Please contact the site administrator, and provide the following Reference ID"
+}

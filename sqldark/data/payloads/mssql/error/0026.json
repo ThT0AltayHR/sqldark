@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B} AND ({Q})>0",
+ "comment": "mssql error via double-quoted + inline comment"
+}

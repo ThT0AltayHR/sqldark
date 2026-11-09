@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "union",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "-- -",
+  "type": "single-quote",
+  "desc": "single-quoted + inline comment"
+ },
+ "vector": "{B} UNION ALL SELECT {COLS} FROM dual-- -",
+ "comment": "mysql union via single-quoted + inline comment"
+}

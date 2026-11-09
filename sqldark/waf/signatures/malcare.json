@@ -1,0 +1,6 @@
+{
+ "id": "malcare",
+ "name": "MalCare",
+ "company": "Inactiv",
+ "regex": "Blocked because of Malicious Activities|Firewall(<[^>]+>)*powered by(<[^>]+>)*MalCare"
+}

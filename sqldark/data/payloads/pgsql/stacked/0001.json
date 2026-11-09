@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B}; SELECT pg_sleep({SLEEP})-- -",
+ "comment": "pgsql stacked via numeric unquoted"
+}

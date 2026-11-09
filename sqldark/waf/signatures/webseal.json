@@ -1,0 +1,6 @@
+{
+ "id": "webseal",
+ "name": "WebSEAL",
+ "company": "IBM",
+ "regex": "(?i)Server: WebSEAL|This is a WebSEAL error message template file|The Access Manager WebSEAL server received an invalid HTTP request"
+}

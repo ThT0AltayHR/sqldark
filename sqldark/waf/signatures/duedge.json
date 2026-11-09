@@ -1,0 +1,6 @@
+{
+ "id": "duedge",
+ "name": "DuEdge",
+ "company": "Baidu",
+ "regex": "(?s)<h1>403<small>.+DuEdge Event ID: [0-9a-f]{16}.+IP: [0-9.]+"
+}

@@ -1,0 +1,6 @@
+{
+ "id": "squarespace",
+ "name": "Squarespace",
+ "company": "Squarespace",
+ "regex": "(?s) @ .+?BRICK-50"
+}

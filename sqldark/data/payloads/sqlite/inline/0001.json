@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B}=(SELECT ({Q}))",
+ "comment": "sqlite inline via numeric unquoted"
+}

@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "stacked",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "-- -",
+  "type": "double-quote",
+  "desc": "double-quoted + inline comment"
+ },
+ "vector": "{B}; SELECT 1-- -",
+ "comment": "sqlite stacked via double-quoted + inline comment"
+}

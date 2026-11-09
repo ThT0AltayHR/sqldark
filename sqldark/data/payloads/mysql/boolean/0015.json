@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "boolean",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "",
+  "type": "double-quote",
+  "desc": "double-quoted string"
+ },
+ "vector": "{B} OR {T}",
+ "comment": "mysql boolean via double-quoted string"
+}

@@ -1,0 +1,6 @@
+{
+ "id": "asm",
+ "name": "Application Security Manager",
+ "company": "F5 Networks",
+ "regex": "The requested URL was rejected\\. Please consult with your administrator|security\\.f5aas\\.com"
+}

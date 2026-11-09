@@ -1,0 +1,6 @@
+{
+ "id": "bekchy",
+ "name": "Bekchy",
+ "company": "Faydata Information Technologies Inc.",
+ "regex": "<title>Bekchy - Access Denided</title>|<a class=\"btn\" href=\"https://bekchy.com/report\">"
+}

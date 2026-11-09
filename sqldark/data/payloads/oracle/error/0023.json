@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "error",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "-- -",
+  "type": "single-quote",
+  "desc": "single-quoted + inline comment"
+ },
+ "vector": "{B} AND to_char(dbms_xmlgen.getxml('SELECT '||({Q})||' FROM dual'))",
+ "comment": "oracle error via single-quoted + inline comment"
+}

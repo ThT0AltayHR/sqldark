@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "'))",
+  "suffix": "-- -",
+  "type": "paren2-single",
+  "desc": "single-quoted inside 2 parentheses"
+ },
+ "vector": "{B} AND cast(({Q}) as numeric)",
+ "comment": "pgsql error via single-quoted inside 2 parentheses"
+}

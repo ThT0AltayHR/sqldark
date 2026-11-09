@@ -1,0 +1,6 @@
+{
+ "id": "expressionengine",
+ "name": "ExpressionEngine",
+ "company": "EllisLab",
+ "regex": "(?s)\\bexp_last_.+?(Invalid GET Data|Invalid URI)"
+}

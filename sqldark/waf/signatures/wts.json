@@ -1,0 +1,6 @@
+{
+ "id": "wts",
+ "name": "WTS",
+ "company": "WTS",
+ "regex": "Server: wts/|>WTS\\-WAF"
+}

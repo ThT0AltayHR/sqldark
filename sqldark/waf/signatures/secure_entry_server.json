@@ -1,0 +1,6 @@
+{
+ "id": "secureentry",
+ "name": "Secure Entry Server",
+ "company": "United Security Providers",
+ "regex": "Server: Secure Entry Server"
+}

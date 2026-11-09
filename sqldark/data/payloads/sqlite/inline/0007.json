@@ -1,0 +1,12 @@
+{
+ "dbms": "sqlite",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "')",
+  "suffix": "-- -",
+  "type": "paren-single",
+  "desc": "single-quoted inside parenthesis"
+ },
+ "vector": "{B}=(SELECT ({Q}))",
+ "comment": "sqlite inline via single-quoted inside parenthesis"
+}

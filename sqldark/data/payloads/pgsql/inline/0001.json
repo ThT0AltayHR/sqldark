@@ -1,0 +1,12 @@
+{
+ "dbms": "pgsql",
+ "technique": "inline",
+ "boundary": {
+  "prefix": "",
+  "suffix": "",
+  "type": "numeric",
+  "desc": "numeric unquoted"
+ },
+ "vector": "{B}=(SELECT ({Q}))",
+ "comment": "pgsql inline via numeric unquoted"
+}

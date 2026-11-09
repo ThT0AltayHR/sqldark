@@ -1,0 +1,6 @@
+{
+ "id": "newdefend",
+ "name": "Newdefend",
+ "company": "Newdefend",
+ "regex": "Server: NewDefend|/nd_block/"
+}

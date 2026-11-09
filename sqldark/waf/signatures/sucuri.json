@@ -1,0 +1,6 @@
+{
+ "id": "sucuri",
+ "name": "Sucuri",
+ "company": "Sucuri",
+ "regex": "Access Denied - Sucuri Website Firewall|Sucuri WebSite Firewall - CloudProxy - Access Denied|Questions\\?.+cloudproxy@sucuri\\.net"
+}

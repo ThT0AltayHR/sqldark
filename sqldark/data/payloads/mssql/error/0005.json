@@ -1,0 +1,12 @@
+{
+ "dbms": "mssql",
+ "technique": "error",
+ "boundary": {
+  "prefix": "\"",
+  "suffix": "",
+  "type": "double-quote",
+  "desc": "double-quoted string"
+ },
+ "vector": "{B} AND 1=convert(int,({Q}))",
+ "comment": "mssql error via double-quoted string"
+}

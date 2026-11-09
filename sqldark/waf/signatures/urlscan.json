@@ -1,0 +1,6 @@
+{
+ "id": "urlscan",
+ "name": "UrlScan",
+ "company": "Microsoft",
+ "regex": "Rejected-By-UrlScan"
+}
