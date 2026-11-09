@@ -1,6 +1,7 @@
 <h1 align="center">SQLDark</h1>
 <p align="center"><b>Advanced SQL injection &amp; database takeover framework</b><br>
 A fast, modular, terminal-only alternative to sqlmap — built for Termux &amp; Linux.</p>
+<p align="center"><a href="https://sdark.gt.tc"><b>sdark.gt.tc</b></a> · <a href="https://pypi.org/project/sqldark/">PyPI</a> · <a href="https://github.com/ThT0AltayHR/sqldark">GitHub</a></p>
 
 <p align="center"><img src="assets/demo.gif" alt="SQLDark live demo" width="820"></p>
 

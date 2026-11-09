@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SQLDark — Advanced SQL Injection Framework</title>
+<meta name="description" content="SQLDark is a fast, modular, terminal-only SQL injection and database takeover framework for Termux and Linux. A stronger sqlmap alternative. pip install sqldark.">
+<meta name="keywords" content="SQLDark, sql injection, sqli, sqlmap alternative, pentest, WAF bypass, termux, python">
+<meta property="og:title" content="SQLDark — Advanced SQL Injection Framework">
+<meta property="og:description" content="Every SQLi technique, 16 databases, 100+ WAF signatures, auto-tamper bypass. pip install sqldark.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐺</text></svg>">
+<style>
+:root{--bg:#0b0e14;--bg2:#11151f;--card:#151a26;--fg:#c9d1d9;--muted:#8b949e;--accent:#7ee787;--accent2:#58a6ff;--crit:#bc8cff;--border:#222b3a;}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;overflow-x:hidden}
+code,pre,.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+a{color:var(--accent2);text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:50;background:rgba(11,14,20,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:800;font-size:22px;letter-spacing:1px}
+.logo span{color:var(--accent)}
+.nav-links{display:flex;gap:26px;align-items:center}
+.nav-links a{color:var(--fg);font-size:15px;transition:color .2s}
+.nav-links a:hover{color:var(--accent)}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:0}
+.burger span{width:26px;height:3px;background:var(--fg);border-radius:2px;transition:.3s}
+.btn{display:inline-block;padding:12px 24px;border-radius:8px;font-weight:600;transition:transform .15s,box-shadow .15s}
+.btn-primary{background:var(--accent);color:#06240f;box-shadow:0 6px 24px rgba(126,231,135,.25)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(126,231,135,.35)}
+.btn-ghost{border:1px solid var(--border);color:var(--fg)}
+.btn-ghost:hover{border-color:var(--accent2);color:var(--accent2)}
+.hero{padding:90px 0 70px;text-align:center;position:relative}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(600px 300px at 50% 0,rgba(88,166,255,.12),transparent);pointer-events:none}
+.hero h1{font-size:clamp(40px,8vw,76px);font-weight:900;letter-spacing:-1px;background:linear-gradient(120deg,#fff,#7ee787 60%,#58a6ff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:rise .8s ease both}
+.hero p.lead{color:var(--muted);font-size:clamp(16px,2.6vw,21px);max-width:680px;margin:18px auto 10px;animation:rise .8s .1s ease both}
+.hero .cta{margin-top:30px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;animation:rise .8s .2s ease both}
+.install{margin:34px auto 0;max-width:460px;background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;animation:rise .8s .3s ease both}
+.install code{color:var(--accent);font-size:16px}
+.copy{background:none;border:1px solid var(--border);color:var(--muted);border-radius:6px;padding:6px 10px;cursor:pointer;font-size:12px}
+.copy:hover{color:var(--accent);border-color:var(--accent)}
+.demo{margin:46px auto 0;max-width:900px;animation:rise .9s .35s ease both}
+.demo img{width:100%;border-radius:12px;border:1px solid var(--border);box-shadow:0 20px 60px rgba(0,0,0,.5)}
+section{padding:70px 0}
+h2.title{font-size:clamp(28px,5vw,40px);font-weight:800;text-align:center;margin-bottom:10px}
+.sub{color:var(--muted);text-align:center;max-width:620px;margin:0 auto 46px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:26px;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-4px);border-color:var(--accent2)}
+.card .ico{font-size:28px;margin-bottom:10px}
+.card h3{font-size:18px;margin-bottom:6px}
+.card p{color:var(--muted);font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:18px;margin-top:10px}
+.stat{text-align:center;background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:26px 10px}
+.stat b{display:block;font-size:38px;font-weight:900;color:var(--accent)}
+.stat span{color:var(--muted);font-size:14px}
+.termwin{background:#0d1117;border:1px solid var(--border);border-radius:12px;overflow:hidden;max-width:780px;margin:0 auto}
+.termbar{background:#161b22;padding:10px 14px;display:flex;gap:7px}
+.dot{width:12px;height:12px;border-radius:50%}
+.dot.r{background:#ff5f56}.dot.y{background:#ffbd2e}.dot.g{background:#27c93f}
+.termbody{padding:18px;font-size:14px;overflow-x:auto}
+.termbody pre{white-space:pre}
+.c-green{color:#3fb950}.c-blue{color:#58a6ff}.c-crit{color:#bc8cff}.c-mut{color:#8b949e}
+.dbms{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:800px;margin:0 auto}
+.dbms span{background:var(--bg2);border:1px solid var(--border);padding:8px 16px;border-radius:30px;font-size:14px;color:var(--fg)}
+footer{border-top:1px solid var(--border);padding:40px 0;text-align:center;color:var(--muted)}
+footer .flinks{display:flex;gap:24px;justify-content:center;margin-bottom:14px;flex-wrap:wrap}
+.legal{font-size:13px;max-width:720px;margin:14px auto 0;color:#6e7681}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}
+.reveal.on{opacity:1;transform:none}
+@media(max-width:760px){
+ .nav-links{position:fixed;inset:64px 0 auto 0;flex-direction:column;background:var(--bg2);padding:22px;gap:18px;border-bottom:1px solid var(--border);transform:translateY(-130%);transition:transform .3s}
+ .nav-links.open{transform:none}
+ .burger{display:flex}
+ .burger.x span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+ .burger.x span:nth-child(2){opacity:0}
+ .burger.x span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+}
+.topbar{background:#1b2130;color:#ffd79a;border-bottom:1px solid #30363d;font-size:13px;text-align:center;padding:8px 14px}
+</style>
+</head>
+<body>
+<div class="topbar">⚠ For authorized security testing &amp; education only — use only on systems you own or are permitted to test.</div>
+<header>
+ <div class="wrap"><nav>
+  <div class="logo">SQL<span>Dark</span></div>
+  <div class="nav-links" id="menu">
+   <a href="#features">Features</a>
+   <a href="#install">Install</a>
+   <a href="#demo">Demo</a>
+   <a href="#databases">Databases</a>
+   <a href="https://github.com/ThT0AltayHR/sqldark">GitHub</a>
+   <a href="https://pypi.org/project/sqldark/" class="btn btn-primary" style="padding:8px 16px">PyPI</a>
+  </div>
+  <button class="burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
+ </nav></div>
+</header>
+
+<div class="hero"><div class="wrap">
+ <h1>SQLDark</h1>
+ <p class="lead">An advanced SQL injection testing framework for security professionals. Fast, modular, terminal-only — a stronger alternative to sqlmap, built for Termux &amp; Linux. For authorized penetration testing and education.</p>
+ <div class="cta">
+  <a href="#install" class="btn btn-primary">Get started</a>
+  <a href="https://github.com/ThT0AltayHR/sqldark" class="btn btn-ghost">★ Star on GitHub</a>
+ </div>
+ <div class="install">
+  <code id="pip">pip install sqldark</code>
+  <button class="copy" onclick="cp()">Copy</button>
+ </div>
+ <div class="demo" id="demo">
+  <img src="https://raw.githubusercontent.com/ThT0AltayHR/sqldark/main/assets/demo.gif" alt="SQLDark live run">
+ </div>
+</div></div>
+
+<section id="features"><div class="wrap">
+ <h2 class="title">Everything in one tool</h2>
+ <p class="sub">Detect, fingerprint, and dump — through the WAF.</p>
+ <div class="grid">
+  <div class="card reveal"><div class="ico">🎯</div><h3>Every technique</h3><p>Error-based, boolean-blind, UNION, time-blind, and stacked queries.</p></div>
+  <div class="card reveal"><div class="ico">💾</div><h3>Three dump engines</h3><p>UNION oracle, error-based leak, and character-by-character blind extraction.</p></div>
+  <div class="card reveal"><div class="ico">🛡️</div><h3>WAF-aware</h3><p>100+ WAF/IPS signatures and automatic tamper-chain selection to get through them.</p></div>
+  <div class="card reveal"><div class="ico">🧬</div><h3>8,900+ payloads</h3><p>A modular library split per database, technique and boundary.</p></div>
+  <div class="card reveal"><div class="ico">🕵️</div><h3>Evasion</h3><p>Random User-Agent, human-like jitter, CSRF token refresh, proxy support.</p></div>
+  <div class="card reveal"><div class="ico">📦</div><h3>Sessions &amp; export</h3><p>Save and resume scans; archive a whole database to a zip of CSVs.</p></div>
+ </div>
+ <div class="stats" style="margin-top:28px">
+  <div class="stat reveal"><b>5</b><span>injection techniques</span></div>
+  <div class="stat reveal"><b>16</b><span>database engines</span></div>
+  <div class="stat reveal"><b>100+</b><span>WAF signatures</span></div>
+  <div class="stat reveal"><b>8.9k</b><span>payload vectors</span></div>
+ </div>
+</div></section>
+
+<section id="install" style="background:var(--bg2)"><div class="wrap">
+ <h2 class="title">Install &amp; run</h2>
+ <p class="sub">Python 3.8+. Works on Termux, Linux, and WSL.</p>
+ <div class="termwin">
+  <div class="termbar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span></div>
+  <div class="termbody mono"><pre><span class="c-mut"># install</span>
+$ pip install sqldark
+
+<span class="c-mut"># detect everything on a parameter</span>
+$ sqldark -u "https://shop.example/product?id=1"
+
+<span class="c-mut"># fingerprint + dump the whole DB, save a session, export to zip</span>
+$ sqldark -u "https://shop.example/item?id=1" --dump-all --session shop --export
+
+<span class="c-mut"># get through a WAF automatically</span>
+$ sqldark -u "https://shop.example/item?id=1" --auto-tamper --level 3</pre></div>
+ </div>
+</div></section>
+
+<section id="databases"><div class="wrap">
+ <h2 class="title">Supported databases</h2>
+ <p class="sub">Dialect-aware fingerprinting and extraction.</p>
+ <div class="dbms">
+  <span>MySQL</span><span>MariaDB</span><span>PostgreSQL</span><span>CockroachDB</span><span>MSSQL</span><span>Sybase</span><span>Oracle</span><span>SQLite</span><span>DB2</span><span>Firebird</span><span>HSQLDB</span><span>Informix</span><span>MS Access</span><span>MaxDB</span><span>ClickHouse</span><span>Vertica</span>
+ </div>
+</div></section>
+
+<footer><div class="wrap">
+ <div class="flinks">
+  <a href="https://github.com/ThT0AltayHR/sqldark">GitHub</a>
+  <a href="https://pypi.org/project/sqldark/">PyPI</a>
+  <a href="#install">Docs</a>
+ </div>
+ <div>SQLDark · MIT License · © 2026 Muhammed Balin</div>
+ <p class="legal"><b>Legal &amp; ethical use:</b> SQLDark is an open-source tool published strictly for authorized penetration testing, security research, and education. Use it only against systems you own or have explicit written permission to test. Unauthorized use against systems you do not control is illegal and is not endorsed or supported. You alone are responsible for complying with all applicable laws. This site hosts documentation only.</p>
+</div></footer>
+
+<script>
+const burger=document.getElementById('burger'),menu=document.getElementById('menu');
+burger.onclick=()=>{menu.classList.toggle('open');burger.classList.toggle('x')};
+menu.querySelectorAll('a').forEach(a=>a.onclick=()=>{menu.classList.remove('open');burger.classList.remove('x')});
+function cp(){navigator.clipboard&&navigator.clipboard.writeText('pip install sqldark');const b=document.querySelector('.copy');b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1200)}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+ErrorDocument 404 /404.html
+Options -Indexes
+DirectoryIndex index.html
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript
+</IfModule>
